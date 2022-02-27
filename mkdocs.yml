@@ -1,0 +1,50 @@
+site_name: 软件学院互助文档
+
+nav:
+  - 欢迎: "index.md"
+  - 课程笔记: 
+    - 介绍: "note/note.md"
+    - 其他: "note/other.md"
+  - 作业攻略: 
+    - 介绍: "homework/homework.md"
+    - 其他: "homework/other.md"
+  - 技术分享: 
+    - 介绍: "tech/tech.md"
+    - 其他: "tech/other.md"
+  - more:
+    - 策划: "about.md"
+    - 文章: "about.md"
+
+theme:
+  name: material
+  icon:
+    logo: material/file-document
+  palette: 
+    primary: teal
+  language: zh
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: 'https://github.com/squidfunk'
+    - icon: fontawesome/brands/twitter
+      link: 'https://twitter.com/squidfunk'
+    - icon: fontawesome/brands/linkedin
+      link: 'https://www.linkedin.com/in/squidfunk'
+
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
