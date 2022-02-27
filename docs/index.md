@@ -1,5 +1,7 @@
 # 软件学院互助文档
 
+测试`CI`测试`CI`测试`CI`
+
 <img src="img/web/help_doc.jpg" alt="互助文档" style="zoom: 50%;" />
 
 ## 一、文档概况 / /这些都是要重新写的！
