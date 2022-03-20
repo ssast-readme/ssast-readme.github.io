@@ -22,7 +22,7 @@
 
  
 
-我是ReadMe，一个不断进化的软院学习指南：[https://kakituken.github.io/](https://kakituken.github.io/)。
+我是ReadMe，一个不断进化的软院学习指南：[https://ssast-readme.github.io/](https://ssast-readme.github.io/)。
 
  
 
