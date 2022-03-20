@@ -31,7 +31,7 @@ theme:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: 'https://github.com/KaKituken/KaKituken.github.io'
+      link: 'https://github.com/ssast-readme/ssast-readme.github.io'
     - icon: fontawesome/brands/twitter
       link: 'https://twitter.com/squidfunk'
     - icon: fontawesome/brands/linkedin
