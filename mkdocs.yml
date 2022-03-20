@@ -14,9 +14,6 @@ nav:
   - 技术分享: 
     - 介绍: "tech/tech.md"
     - 其他: "tech/other.md"
-  - more:
-    - 策划: "about.md"
-    - 文章: "about.md"
 
 theme:
   name: material
@@ -34,7 +31,7 @@ theme:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: 'https://github.com/squidfunk'
+      link: 'https://github.com/KaKituken/KaKituken.github.io'
     - icon: fontawesome/brands/twitter
       link: 'https://twitter.com/squidfunk'
     - icon: fontawesome/brands/linkedin
