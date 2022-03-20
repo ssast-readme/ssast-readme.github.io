@@ -1,7 +1,10 @@
 site_name: 软件学院互助文档
 
 nav:
-  - 欢迎: "index.md"
+  - 首页:
+    - 欢迎: "index.md"
+    - 致作者: "ToAuther.md"
+    - 致读者: "ToReader.md"
   - 课程笔记: 
     - 介绍: "note/note.md"
     - 其他: "note/other.md"
