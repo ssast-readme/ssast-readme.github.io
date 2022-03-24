@@ -38,7 +38,7 @@
 
 ### 二、投稿方式
 
-请将稿件[发送至院科协邮箱service@ssast.org](mailto:发送至院科协邮箱service@ssast.org)。
+请将稿件发送至院科协邮箱[service@ssast.org](mailto:发送至院科协邮箱service@ssast.org)。
 
 邮件主题格式：【ReadMe】+姓名+主题。
 
