@@ -13,6 +13,7 @@ nav:
     - 其他: "homework/other.md"
   - 技术分享: 
     - 介绍: "tech/tech.md"
+    - JS语法糖及语法坑: "tech/JavaScript语法糖及语法坑.md"
     - 其他: "tech/other.md"
 
 theme:
