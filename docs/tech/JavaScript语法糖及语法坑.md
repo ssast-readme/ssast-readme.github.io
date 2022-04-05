@@ -269,4 +269,4 @@ console.log(base);  // [1, 2, 15]
 - [现代 JavaScript 教程](https://zh.javascript.info/)
 
 ## 下载链接
-- [点击转到Git仓库](https://github.com)
+- [点击转到Git仓库](https://github.com/ssast-readme/ssast-readme.github.io/tree/master/docs/tech)
