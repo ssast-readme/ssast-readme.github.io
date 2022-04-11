@@ -1,0 +1,1477 @@
+
+<!doctype html>
+<html lang="zh" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-8.2.1">
+    
+    
+      
+        <title>Manjaro系统入门 - ReadMe 软件学院互助文档</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.e8d9bf0c.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.e6a45f82.min.css">
+        
+          
+          
+          <meta name="theme-color" content="#009485">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="teal" data-md-color-accent="">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#manjaro" class="md-skip">
+          跳转至
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="页眉">
+    <a href="../../.." title="ReadMe 软件学院互助文档" class="md-header__button md-logo" aria-label="ReadMe 软件学院互助文档" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 9h5.5L13 3.5V9M6 2h8l6 6v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4c0-1.11.89-2 2-2m9 16v-2H6v2h9m3-4v-2H6v2h12z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            ReadMe 软件学院互助文档
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Manjaro系统入门
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="搜索" placeholder="搜索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="查找">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="清空当前内容" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            正在初始化搜索引擎
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="标签" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../.." class="md-tabs__link">
+        首页
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../note/note/" class="md-tabs__link">
+        课程笔记
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../homework/homework/" class="md-tabs__link">
+        作业攻略
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../tech/" class="md-tabs__link md-tabs__link--active">
+        技术分享
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="导航栏" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="ReadMe 软件学院互助文档" class="md-nav__button md-logo" aria-label="ReadMe 软件学院互助文档" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 9h5.5L13 3.5V9M6 2h8l6 6v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4c0-1.11.89-2 2-2m9 16v-2H6v2h9m3-4v-2H6v2h12z"/></svg>
+
+    </a>
+    ReadMe 软件学院互助文档
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1" type="checkbox" id="__nav_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_1">
+          首页
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="首页" data-md-level="1">
+        <label class="md-nav__title" for="__nav_1">
+          <span class="md-nav__icon md-icon"></span>
+          首页
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        欢迎
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ToAuthor/" class="md-nav__link">
+        致作者
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ToReader/" class="md-nav__link">
+        致读者
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2">
+          课程笔记
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="课程笔记" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          课程笔记
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../note/note/" class="md-nav__link">
+        介绍
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../note/other/" class="md-nav__link">
+        其他
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          作业攻略
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="作业攻略" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          作业攻略
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../homework/homework/" class="md-nav__link">
+        介绍
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../homework/other/" class="md-nav__link">
+        其他
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4">
+          技术分享
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="技术分享" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          技术分享
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tech/" class="md-nav__link">
+        介绍
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../JavaScript%E8%AF%AD%E6%B3%95%E7%B3%96%E5%8F%8A%E8%AF%AD%E6%B3%95%E5%9D%91/" class="md-nav__link">
+        JS语法糖及语法坑
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Manjaro系统入门
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Manjaro系统入门
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#arch-linux" class="md-nav__link">
+    Arch Linux 简介
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#manjaro_1" class="md-nav__link">
+    初识 Manjaro
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#manjaro_2" class="md-nav__link">
+    安装 Manjaro
+  </a>
+  
+    <nav class="md-nav" aria-label="安装 Manjaro">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    下载镜像
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    烧录镜像
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bios-usb" class="md-nav__link">
+    修改 BIOS 启动项顺序并以 USB 启动系统
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    安装界面
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#windows" class="md-nav__link">
+    兼容 Windows 双系统的安装
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    基本配置
+  </a>
+  
+    <nav class="md-nav" aria-label="基本配置">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    更换国内源（推荐）
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    显卡驱动
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aur" class="md-nav__link">
+    AUR 包管理工具
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    输入法配置
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    日常使用经验
+  </a>
+  
+    <nav class="md-nav" aria-label="日常使用经验">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aur_1" class="md-nav__link">
+    AUR 是你最好的朋友
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#archwiki" class="md-nav__link">
+    ArchWiki 是你最好的老师
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    更新有风险，升级需谨慎
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    忍一忍风平浪静
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    日常使用软件
+  </a>
+  
+    <nav class="md-nav" aria-label="日常使用软件">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    代理软件
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#zsh" class="md-nav__link">
+    zsh
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_13" class="md-nav__link">
+    浏览器
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_14" class="md-nav__link">
+    腾讯系软件
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_15" class="md-nav__link">
+    文档编辑
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#markdown" class="md-nav__link">
+    Markdown 编辑器
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#latex" class="md-nav__link">
+    Latex 编辑
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_16" class="md-nav__link">
+    听歌
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#docker" class="md-nav__link">
+    Docker
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_17" class="md-nav__link">
+    代码编辑
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_18" class="md-nav__link">
+    系统备份
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kde" class="md-nav__link">
+    系统主题美化（KDE）
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_19" class="md-nav__link">
+    笔者杂谈
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../other/" class="md-nav__link">
+        其他
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#arch-linux" class="md-nav__link">
+    Arch Linux 简介
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#manjaro_1" class="md-nav__link">
+    初识 Manjaro
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#manjaro_2" class="md-nav__link">
+    安装 Manjaro
+  </a>
+  
+    <nav class="md-nav" aria-label="安装 Manjaro">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    下载镜像
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    烧录镜像
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bios-usb" class="md-nav__link">
+    修改 BIOS 启动项顺序并以 USB 启动系统
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    安装界面
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#windows" class="md-nav__link">
+    兼容 Windows 双系统的安装
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    基本配置
+  </a>
+  
+    <nav class="md-nav" aria-label="基本配置">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    更换国内源（推荐）
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    显卡驱动
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aur" class="md-nav__link">
+    AUR 包管理工具
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    输入法配置
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    日常使用经验
+  </a>
+  
+    <nav class="md-nav" aria-label="日常使用经验">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aur_1" class="md-nav__link">
+    AUR 是你最好的朋友
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#archwiki" class="md-nav__link">
+    ArchWiki 是你最好的老师
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    更新有风险，升级需谨慎
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    忍一忍风平浪静
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    日常使用软件
+  </a>
+  
+    <nav class="md-nav" aria-label="日常使用软件">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    代理软件
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#zsh" class="md-nav__link">
+    zsh
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_13" class="md-nav__link">
+    浏览器
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_14" class="md-nav__link">
+    腾讯系软件
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_15" class="md-nav__link">
+    文档编辑
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#markdown" class="md-nav__link">
+    Markdown 编辑器
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#latex" class="md-nav__link">
+    Latex 编辑
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_16" class="md-nav__link">
+    听歌
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#docker" class="md-nav__link">
+    Docker
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_17" class="md-nav__link">
+    代码编辑
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_18" class="md-nav__link">
+    系统备份
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kde" class="md-nav__link">
+    系统主题美化（KDE）
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_19" class="md-nav__link">
+    笔者杂谈
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+
+
+<h1 id="manjaro">Manjaro 系统日常使用入门</h1>
+<p>作者：林地宁宁</p>
+<h2 id="arch-linux">Arch Linux 简介</h2>
+<p><center>
+    <img alt="archlinux-logo" src="/tech/Intro-To-Manjaro/img/archlinux-logo.png" width="75%"/>
+</center></p>
+<p>常听人说 Arch Linux 系统（以下简称 Arch）是一款自由度极高的 Linux 发行版，在维基百科上给出的描述如下：</p>
+<blockquote>
+<p>Arch Linux 是一款基于 x86-64 架构的 Linux发行版。系统主要由自由和开源软件组成，支持社区参与。系统设计以 KISS 原则（保持简单和愚蠢）为总体指导原则，注重代码正确、优雅和极简主义，期待用户愿意去理解系统的运作。Arch Linux 采用pacman作为默认的软件包管理器。</p>
+</blockquote>
+<p>通常在我们的日常生活中，我们所最多接触的或许是 <strong>Ubuntu</strong> 系统，而这得益于 Ubuntu 所提供 GNOME 桌面环境，毕竟不是每个新生代码农都能在一开始接受全命令行的界面。当然，Ubuntu 能够作为目前最多用户的 Linux 版本，与其自身的稳定性有关。笔者在此也不再过多赘述 Ubuntu 的相关内容，而是转而关注 Arch 系统。</p>
+<p><strong>Arch 为什么好？这和 Arch 的高自由度摆脱不了干系</strong>。Arch 的设计初衷，就是为了 Do-It-Yourself，而这恰好劝退了所有刚入坑 Arch 的萌新——原生的 Arch 几乎只有必须的内核以及通用驱动，要想进一步 DIY，则需要在纯粹命令行模式下安装专有驱动并搭建桌面环境，其繁琐程度足够让一个老 Arch 玩家都吃上一壶。在极客圈里，完完整整地安装一个 Arch 系统，甚至可以作为对萌新的一个吹牛的谈资。</p>
+<p>尽管 Arch 的安装如此复杂，一旦克服了上面这些过程，留下来的就是一个纯净的、完全掌握的 Arch 系统，而这让不少极客趋之若鹜。</p>
+<p>虽然 Ubuntu 提供了一个预先配置好的系统，但是其也正在肉眼可见的臃肿起来。此外，如果想提高自己对于 Linux 系统的认识，加入 Arch 教或许能让你看起来更 Cool，更 Pro 一点。</p>
+<p>在这里，笔者<strong>推荐以下人群可以尝鲜 Arch 系统</strong>：</p>
+<ul>
+<li>不懂 Linux 系统，但又想尝试使用 Linux 作为日常机，并且需要有 DIY 能力以及探索精神的萌新</li>
+<li>对 Linux 系统有所接触，但想有一个美观的桌面环境、干净的内置环境的系统，并足够支撑日常使用的人</li>
+<li>痛恨 Windows 的环境配置的人</li>
+<li>日常 Linux 服务器开发的人</li>
+<li>厌烦 Ubuntu 虚拟机的人</li>
+<li>希望软件保持最新版本的人</li>
+<li>对 Redhat 及 Debian 系感到不满的人</li>
+</ul>
+<h2 id="manjaro_1">初识 Manjaro</h2>
+<p><center>
+    <img alt="manjaro-logo" src="/tech/Intro-To-Manjaro/img/manjaro-logo.png" width="75%"/>
+</center></p>
+<p>说了这么多关于 Arch 的事情，也该将话题转向本篇文章的主角——Manjaro 系统，在维基上的描述如下：</p>
+<blockquote>
+<p>Manjaro Linux（或简称 Manjaro）是基于 Arch Linux 的 Linux 发行版，使用 Xfce 、GNOME和 KDE Plasma 作为默认桌面环境，和 Arch 一样，采用滚动更新。其目标是为 PC 提供易于使用的自由的操作系统。</p>
+</blockquote>
+<p>如果说 Arch 是没有躯壳的自由的灵魂，那 Manjaro 就是一个带着自由灵魂的健全人。Arch 系统繁杂的配置显然不能让所有人都满意，因此 <strong>Manjaro 作为基于 Arch 的最流行发行版，在最大程度保留 DIY 自由度的情况下，简化了 Arch 的配置流程</strong>。</p>
+<p>在写下这篇文章的时候，笔者已经将 Manjaro 系统当作日常主力使用了 2 年时间，下面是笔者个人总结出的有关于 Manjaro 的优缺点：
+- <strong>优点</strong>：
+    - 完善且纯粹的 Linux 系统，再也不用担心 WIN 配环境炸裂惹，轻松种码和炼丹
+    - Pacman 保证所有软件和库都在最新版本
+    - 在 wine 加持下，可以使用许多常用的 WIN 软件，包括 QQ、微信、QQ音乐和腾讯会议等
+    - 许多常见软件都有 Linux 版本，足以满足日常使用，例如 Chrome、Edge、网易云音乐、vscode 和 JetBrains 旗下产品等
+    - 各种桌面环境自定义，让你的桌面极客风十足
+    - ArchWiki 专治疑难杂症，关于系统相关的问题几乎都能在 ArchWiki 找到解决方案
+    - <strong>能更加熟悉 Linux 系统，再也不怕老板给你 Linux 服务器而你只会查 CSDN 惹</strong>
+- <strong>缺点</strong>：
+    - 经常性的保持软件和库在最新状态，意味着经常性的依赖炸裂，甚至有可能导致炸机，因此<strong>日常性的系统备份还原必不可少，更需要有一颗强大的心脏</strong>
+    - Linux 版本的商业软件，或多或少沾点 bug，需要用户有耐心去解决
+    - wine 软件不是十全十美的，有些 WIN 软件也就是个勉强能用的程度
+    - 不适合进行游戏，尽管通过 Steam 的 Proton 以达到游戏的目的</p>
+<p>看完上述优缺点后，如果你已经下定决心尝试 Manjaro 的话，那就继续往下看吧。</p>
+<h2 id="manjaro_2">安装 Manjaro</h2>
+<p>这一节，笔者将简单描述 Manjaro 的安装过程。相关内容参考于<a href="https://en.osdn.net/projects/manjaro/storage/Manjaro-User-Guide.pdf">官方用户手册</a>，如有疑问，可自行查阅相关内容。</p>
+<p>此处我也推荐优秀入门博文 <a href="https://zhuanlan.zhihu.com/p/114296129">Manjaro KDE 安装配置全攻略</a>。</p>
+<h3 id="_1">下载镜像</h3>
+<p>在 Manjaro 的官网的<a href="https://manjaro.org/download/">下载页面</a>中，我们可以下载 Manjaro 的 ISO 镜像，目前可供选择的有 3 个版本，区别大致如下：
+- Xfce：轻量级桌面环境，资源消耗少
+- KDE Plasma（推荐）：功能完善，自定义程度高的桌面环境，资源消耗大
+- GNOME：GNU 的桌面环境，也是 Ubuntu 默认的桌面环境，资源消耗中等</p>
+<p>选定了想要的桌面环境后，下载对应的 ISO 即可。</p>
+<p><center>
+    <figure>
+        <img alt="kde-example" src="/tech/Intro-To-Manjaro/img/kde-example.png" loading="lazy" />
+        <figcaption>KDE Plasma 样式</figcaption>
+    </figure>
+</center></p>
+<h3 id="_2">烧录镜像</h3>
+<p>考虑到大多数同学不会使用 CD/DVD 烧录，因此此部分留于官方用户手册中自行查阅。我们将使用 USB 进行烧录。</p>
+<p>首先，我们要准备 1 个<strong>闲置的 USB</strong>，将镜像烧录进去。<strong>注意，此过程会清除 USB 上的内容！</strong></p>
+<p>我们选择烧录软件 <a href="https://rufus.akeo.ie/">Rufus</a> 或者 <a href="https://etcher.io/">Etcher</a>。</p>
+<p>对于使用 USB 的 Windows 用户来说，Rufus 是官方强烈推荐的。在挂载 USB 设备后，在设备菜单中选择要使用的 USB Drive。然后，选择所下载的光盘镜像并开始烧录。之后，在出现的窗口中选择 DD Image 即可。</p>
+<p>对于 Etcher 而言，操作更加简单，只需要选择镜像和 USB Drive 进行烧录即可。</p>
+<p>以上关于烧录 Manjaro 镜像的内容，也可以在百度等搜索引擎中查询到相关信息。</p>
+<h3 id="bios-usb">修改 BIOS 启动项顺序并以 USB 启动系统</h3>
+<p>这一步需要我们重启电脑，并进入 BIOS 界面，将 USB 启动项优先级调至最高，使得我们可以通过 USB 方式启动镜像中的安装系统。</p>
+<p>具体步骤因各机差异，还请各位读者自行百度解决。</p>
+<h3 id="_3">安装界面</h3>
+<p>成功进入 USB 的安装镜像后，将会自动进入 Installer。如果没有进入，也可以点击桌面图标进入。</p>
+<h3 id="windows">兼容 Windows 双系统的安装</h3>
+<p>此处，我默认各位读者都有 Windows 系统，且 Manjaro 需要作为第二系统安装。</p>
+<p>安装之前，需要在磁盘上预留足够的空间作为 Manjaro 安装的空间。之后的步骤跟随 Installer 进行即可。</p>
+<p>如果曾经安装过 Ubuntu 系统的，这件事情不难。但是如果是一个萌新，在这里受限于篇幅，并且秉持着不重复造轮子的原理，笔者只附上几篇相关的安装教程，对安装过程有疑问者可自行参考。</p>
+<ul>
+<li><a href="https://zhuanlan.zhihu.com/p/376787855">知乎-保姆级 Manjaro 双系统安装教程</a></li>
+<li><a href="https://www.jianshu.com/p/2ec565f17e00">简书-Manjaro 安装以及配置</a></li>
+<li><a href="https://en.osdn.net/projects/manjaro/storage/Manjaro-User-Guide.pdf">官方用户手册的第2章</a></li>
+</ul>
+<p>这一步与安装 Ubuntu 时候类似，不过 Manjaro 会自动配置 GRUB 做到双系统引导（如果无法双系统引导，请阅览官方用户手册第 2 章相关内容）。如果嫌麻烦可以直接采用 Alongside 方法安装，但是更推荐使用自定义分区的方式安装，毕竟宗旨就是自己的电脑自己掌握！</p>
+<p>分区方案要讲起来又是很大的东西呢！这里笔者建议同学们有兴趣了解一下“Linux 分区方案”，此处提供一些链接：</p>
+<ul>
+<li><a href="https://www.linuxprobe.com/forthe-linux-partition.html">Linux 分区的那些方案</a></li>
+<li><a href="https://www.cnblogs.com/hanrp/p/12551695.html">Linux 磁盘分区方案</a></li>
+</ul>
+<h2 id="_4">基本配置</h2>
+<p>哦吼！现在如果你已经克服最大的安装难题来到此处，那么剩下的问题对你来说一定不是问题惹。</p>
+<h3 id="_5">更换国内源（推荐）</h3>
+<pre><code class="language-bash">sudo pacman-mirrors -c China
+</code></pre>
+<h3 id="_6">显卡驱动</h3>
+<p>Manjaro 默认会使用开源的显卡驱动 Nouveau，但开源驱动意味着适配性肯定不如闭源驱动，要想炼丹的话，就一定要配置闭源驱动。</p>
+<p>如果在安装过程中已经选择了使用 Proprietary Graphic Driver 的话，就可以跳过这一步辣。</p>
+<p>如果之前没有跳过，则需要进入“设置”界面中，选择</p>
+<p>对于 A 卡用户，有需求的同学就查阅一下万能的 ArchWiki 中 <a href="https://wiki.archlinux.org/title/AMDGPU">AMDGPU</a> 页面吧。</p>
+<h3 id="aur">AUR 包管理工具</h3>
+<p>Pacman 十分强大，不过为了更好的利用 AUR（Arch User Repository，<a href="https://wiki.archlinux.org/title/Arch_User_Repository_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)">Wiki</a>，<a href="https://aur.archlinux.org/">入口</a>） 库中已有的包，因此市面上诞生出许多包管理工具：</p>
+<ul>
+<li>yay</li>
+<li>yaourt</li>
+<li>aurman</li>
+<li>pakku</li>
+</ul>
+<p>这里推荐安装 yay 工具为例子：</p>
+<pre><code class="language-bash">sudo pacman -S --needed git base-devel yay
+</code></pre>
+<p>之后在日常生活中，我们就不直接调用 <code>sudo pacman</code> 命令来管理包，而是用 <code>yay</code> 直接平替。</p>
+<h3 id="_7">输入法配置</h3>
+<p>Manjaro 上的输入法配置，根据用户的选择不同，有许许多多花样，在这里想把输入法配置写清楚，再考虑到各个输入法的优缺点，几乎可以再写一篇新文章了。</p>
+<p>KDE 桌面推荐使用 fcitx5 或者 fcitx 作为输入法框架，GNOME 桌面用 IBus 更稳定。</p>
+<p>因此在入门篇就列出几个经典输入法的安装教程，供同学们去自行参考并选择：
+- <a href="https://www.cnblogs.com/fatalord/p/13850072.html">默认 fcitx5 输入法与美化</a>
+- <a href="https://zhuanlan.zhihu.com/p/468429000">fcitx 的多种输入法</a>
+- <a href="https://linuxacme.cn/559/">IBus 配置</a></p>
+<p>输入法种类繁多，遇见合适的就好。个人目前使用默认的 fcitx5 + Material 皮肤。</p>
+<p><center>
+    <figure>
+        <img alt="fcitx5-material" src="/tech/Intro-To-Manjaro/img/fcitx5-material.png" />
+        <figcaption>Fcitx5 + Material 输入法样例</figcaption>
+    </figure>
+</center></p>
+<h2 id="_8">日常使用经验</h2>
+<p>经过漫长的配置时间，我们的 Manjaro 系统终于可以正常使用了！</p>
+<p>下面，笔者将总结一些 Manjaro 日常使用经验和踩坑指南。</p>
+<h3 id="aur_1">AUR 是你最好的朋友</h3>
+<p>如果用 Arch 系统却不用 Pacman 及 AUR 库，那你的 Arch 之旅便是失败的！</p>
+<p>在找寻需要的软件或者库之前，先去 <a href="https://aur.archlinux.org/">AUR</a> 中搜索一下相关内容。在<strong>大多数情况</strong>下，<strong>AUR 中都能够直接找到所需要的内容</strong>，许多无私奉献的人会帮你打包好你所要的软件包。</p>
+<p>只有实在找不到时，我才会选择自行编译或者安装。当然，也希望同学们能参与到 AUR 的建设中，把自己的痛苦经历整理起来，将来便能减少别人的苦痛。</p>
+<h3 id="archwiki">ArchWiki 是你最好的老师</h3>
+<p>Arch 的特色之一就是，<strong>几乎任何你能想到的问题，都有人在 ArchWiki 上建立页面，并给出当前的一些解决方案</strong>。一些国人常见问题上，甚至有中文页面。在 Arch 界，我们提到维基，通常就是指 ArchWiki 辣。</p>
+<p>因此，想问问题前，先去搜一搜 ArchWiki 吧！</p>
+<h3 id="_9">更新有风险，升级需谨慎</h3>
+<p>Arch 系统一向偏好将软件和依赖都升级到最新版本，这会让 Ubuntu 用户早期难以适应。每隔一两周，通常就能收到多达几个 G 的更新内容。</p>
+<p>尽管升级软件包在 Arch 系中是常规操作，但笔者还是在这里提醒各位——<strong>升级前一定要备份，这是笔者踩过的最大的坑，尤其是与内核和驱动相关的更新，更要小心谨慎</strong>。</p>
+<p><strong>你永远不知道这次升级会不会崩掉你哪个部分</strong>。如果只是少数几个软件无法运行，兴许还是小事。倘若是网络模块、显卡驱动甚至是内核崩了，那可有的苦受了。</p>
+<p>关于备份相关软件以及临时回退软件版本，在下面的“日常使用软件”一节中会涉及。</p>
+<h3 id="_10">忍一忍风平浪静</h3>
+<p>软件追求最新版本的特性，导致 Manjaro 上一些软件不是十全十美的。作为对开源者的感谢，在使用 AUR 中软件时，我们应常怀<strong>感恩</strong>的心，多对其缺陷功能发 issue，并准备时刻容忍他的小缺漏。</p>
+<p>这才是一名具有良好素质的码农该做的事。</p>
+<h2 id="_11">日常使用软件</h2>
+<p>这一节我来总结一下个人日常所使用的软件。目前笔者能够将 Manjaro 系统机作为主力，也多亏于其丰富的软件生态。</p>
+<p>当然，软件是无穷无尽的，这里笔者只介绍一些同学们热点关注的软件。</p>
+<h3 id="_12">代理软件</h3>
+<p>干这一行避不开挂代理的操作，不挂代理的话很多常用的网站和工具都无法正常使用。但是这一步通常会涉及死循环——在不挂代理的情况下获取常见的代理软件。这个问题就交给同学们自己处理惹。</p>
+<table>
+    <tr>
+        <td>
+            <img alt="v2ray-logo" src="/tech/Intro-To-Manjaro/img/v2ray-logo.png" width="512px" />
+        </td>
+        <td>
+            <img alt="clash-logo" src="/tech/Intro-To-Manjaro/img/clash-logo.png" />
+        </td>
+        <td>
+            <img alt="shadowsocks-logo" src="/tech/Intro-To-Manjaro/img/ss-logo.png" />
+        </td>
+    </tr>
+    <caption style="caption-side: bottom;">常见的代理软件</caption>
+</table>
+
+<p>如果同学们对 Linux 上的代理软件不熟悉，这里提供几种常见的代理软件，这里可以参考维基页面：<a href="https://wiki.archlinux.org/title/V2Ray_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)">V2Ray</a>、<a href="https://wiki.archlinux.org/title/Clash">Clash</a> 和 <a href="https://wiki.archlinux.org/title/Trojan">Trojan</a>。但是这些都是代理软件的内核，下面列举部分具体的 GUI 界面供参考：<a href="https://wiki.archlinux.org/title/Qv2ray_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)">QV2Ray</a>、<a href="https://aur.archlinux.org/packages/clash-for-windows-bin">clash-for-windows(Linux版)</a> 和 <a href="https://github.com/v2rayA/v2rayA">V2RayA</a>。</p>
+<p>同学们要牢记，<strong>在 Linux 系统中，即使设置了代理，部分软件也可以选择不使用代理</strong>。尽管用不用代理是由软件来决定，我们最好也将本地代理设置到全局环境中。</p>
+<p>例如将下述代码加入 <code>~/.bashrc</code> 或者 <code>~/.zshrc</code> 中以供 Shell 获取代理信息，也可以在 <code>~/.profile</code> 中设置：</p>
+<pre><code class="language-bash"># 端口需自行修改
+export http_proxy=&quot;http://127.0.0.1:8889&quot;
+export https_proxy=&quot;http://127.0.0.1:8889&quot;
+export HTTP_PROXY=&quot;http://127.0.0.1:8889&quot;
+export HTTPS_PROXY=&quot;http://127.0.0.1:8889&quot;
+</code></pre>
+<p>此外，在“设置”—“网络连接”—“代理”中自行设置本地代理地址，以供桌面程序获取代理信息。</p>
+<h3 id="zsh">zsh</h3>
+<p>如果你曾经是 Mac 用户，那你对 zsh 应该不会陌生。zsh 可以提供了比 bash 更加丰富的功能，例如命令自动补全，git 插件和高光等。</p>
+<p>zsh 的配置此处建议自行搜索相关资料，此处提供两个参考：</p>
+<ul>
+<li><a href="https://ulomo.github.io/2019/04/25/Archlinux-zsh%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE/">Archlinux zsh 安装配置</a></li>
+<li><a href="https://segmentfault.com/a/1190000022863791">Manjaro终端美化</a></li>
+</ul>
+<h3 id="_13">浏览器</h3>
+<p>通常情况下，开源的 firefox 浏览器会作为默认浏览器。当然，我们也可以换 Chorme 或者 Edge 来进行跨平台同步。</p>
+<pre><code class="language-bash"># chrome
+yay -S google-chrome
+
+# edge
+yay -S microsoft-edge-stable-bin
+</code></pre>
+<h3 id="_14">腾讯系软件</h3>
+<p>腾讯系软件在日常生活中不可或缺。值得注意的是这些软件并没有 Linux 版本，或者其 Linux 版本十分复古难用，因此我们会使用 <a href="https://wiki.archlinux.org/title/Wine_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)">wine</a> 或者 <a href="https://wiki.archlinux.org/title/Deepin-wine">deepin-wine</a> 容器来运行。</p>
+<p>下面是具体参考资料：
+- <a href="https://wiki.archlinux.org/title/Tencent_QQ_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)">QQ/TIM ArchWiki</a>
+- <a href="https://wiki.archlinux.org/title/WeChat_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)">WeChat ArchWiki</a>
+- <a href="https://aur.archlinux.org/packages/wemeet-bin">腾讯会议-bin</a>
+- <a href="https://aur.archlinux.org/packages/com.tencent.meeting.deepin">腾讯会议-wine</a></p>
+<h3 id="_15">文档编辑</h3>
+<p>文档编辑目前首推金山 WPS 套装，其他的用起来都不太舒服。</p>
+<p>具体参见 <a href="https://wiki.archlinux.org/title/WPS_Office_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)">WPS</a> 的维基页面。</p>
+<p>TL;DR：</p>
+<pre><code class="language-bash">yay -S wps-office-cn wps-office-mui-zh-cn ttf-wps-fonts
+</code></pre>
+<h3 id="markdown">Markdown 编辑器</h3>
+<p>自从 Typora 收费后，市面上能打的免费 Markdown 编辑器就不多了，这里推荐其收费前最后的免费版。</p>
+<pre><code class="language-bash">yay -S typora-free
+</code></pre>
+<h3 id="latex">Latex 编辑</h3>
+<p>Latex 还是逃不掉 Tex Live 的统治。当然，也可以用 Docker 自己搭一个 Overleaf，或者使用第三方提供的 Overleaf 服务。</p>
+<p>具体参见 <a href="https://wiki.archlinux.org/title/TeX_Live_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)">Tex Live</a> 的维基页面和 <a href="https://archlinux.org/packages/community/x86_64/texstudio/">TexStudio</a> 软件包。</p>
+<h3 id="_16">听歌</h3>
+<p>许多歌曲软件都能在 AUR 上找到现成的软件，下面列举了网易云音乐和 QQ 音乐的安装：</p>
+<pre><code class="language-bash"># 网易云音乐
+yay -S netease-cloud-music
+
+# QQ音乐
+yay -S qqmusic-bin
+</code></pre>
+<h3 id="docker">Docker</h3>
+<p>在 Linux 系统上的好处就是可以随心所欲的使用 Docker。具体请参考 <a href="https://wiki.archlinux.org/title/Docker_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)">docker</a> 的维基页面。</p>
+<p>使用 docker 搭建环境后，再也不用怕系统变得乱糟糟惹。</p>
+<h3 id="_17">代码编辑</h3>
+<p>vscode 和 JetBrains 全家桶足够满足日常的使用需求。具体安装可参考：
+- <a href="https://wiki.archlinux.org/title/Visual_Studio_Code_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)">vscode ArchWiki</a>
+- <a href="https://aur.archlinux.org/packages/jetbrains-toolbox">JetBrains Toolbox</a>：使用 Toolbox 来管理安装 JetBrains 全家桶</p>
+<h3 id="_18">系统备份</h3>
+<p>为应对 Manjaro 中随时可能产生的炸机风险，经常做备份是一个良好的习惯。</p>
+<p>市面上的备份软件非常多，这里只推荐一个 TimeShift。具体的配置和使用方式可以参考：</p>
+<ul>
+<li><a href="https://zhuanlan.zhihu.com/p/346602946">知乎-TimeShift：提前不备份，滚挂徒伤悲</a></li>
+</ul>
+<h2 id="kde">系统主题美化（KDE）</h2>
+<p>KDE 桌面的美化十分简单，例如：
+- <strong>主题更换</strong>：在“设置”中切换到“主题”，便可以在 KDE Store 中选择自己想要的主题，甚至可以模仿 Mac、Win10 和 Win11 等。
+- <strong>桌面部件</strong>：在桌面上右键后，可以添加小部件并移至桌面上。小部件也可以通过在线方式获取。
+- <strong>背景更换</strong>：KDE 的桌面背景可以通过在桌面右键，并选择对应选项后更换。当然，如果你的 Steam 账号拥有 Wallpaper Engine 这款知名的动态壁纸软件，你也可以安装 <a href="https://github.com/catsout/wallpaper-engine-kde-plugin">wallpaper-engine-plugin</a>，或者直接在 KDE Store 中选择安装此插件并配置后，即可调用 Wallpaper Engine 中的动态壁纸。</p>
+<h2 id="_19">笔者杂谈</h2>
+<p><strong>将 Linux 系统当作日常主力机，这是需要勇气的</strong>。Linux 的操作和 Windows 截然不同，而且 Linux 玩起来比 Windows 更容易玩崩。这在一开始的适应期，往往会给萌新带来压力。但是“有压力才能蒸出好排骨”，当我们渡过了这段“磨合期”，你就能发现自己对于 Linux 系统的了解突飞猛进，同时也对操作系统有了更加深刻的理解。</p>
+<p>笔者写下这篇文章，更是希望将自己在走向 Manjaro 中所经历的流程，以及遇到的各种坑都记录下来，以供后人能在我的覆辙上更快的进步。</p>
+<p>当别人还在 Windows 上捣鼓环境配置的时候，我只需要敲两行命令，就能将环境完美的装好，这或许就是我最初选择转向 Linux 的最大原因。</p>
+<p><center>
+    <figure>
+        <img alt="my-desktop" src="/tech/Intro-To-Manjaro/img/my-desktop.gif" loading="lazy" />
+        <figcaption>笔者的动态桌面</figcaption>
+    </figure>
+</center></p>
+<p>事实上，在使用 2 年 Manjaro 之前，我曾将 Ubuntu 作为主力机使用了将近 1 年。个人对 Ubuntu 算不上喜欢，总觉得它差了些什么东西，可能是自由度不够，也可能是界面不美观，或者是软件管理稀烂。但这些不协调感在我投入 Manjaro 怀抱以后便消失了。或许在真正使用 Arch 的大佬面前，我这种 Manjaro 仍然是小菜鸡，但这并不妨碍我对这款系统的喜爱，毕竟它让现在的我非常满足惹。</p>
+<p>唯一美中不足的是，Linux 玩游戏的体验十分之差，这还是让我很苦恼的，毕竟自己还是半个 Gamer。好在 Manjaro 中内置了 Steam，再加上 Beta 版的 Proton 技术，让大多数 Steam 游戏都能在 Linux 上运行。尽管这些游戏的运行性能还是很差，但这还是让我看到了希望，说不定未来就能真正的在 Linux 上享受到完美的游戏体验了。</p>
+<p>闲话不多说了，如果各位同学对上面的过程还有什么问题，或者想就相关内容介绍自己的经验，欢迎联系科协！</p>
+
+              
+            </article>
+          </div>
+        </div>
+        
+          <a href="#" class="md-top md-icon" data-md-component="top" data-md-state="hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"/></svg>
+            回到页面顶部
+          </a>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="页脚">
+      
+        
+        <a href="../../JavaScript%E8%AF%AD%E6%B3%95%E7%B3%96%E5%8F%8A%E8%AF%AD%E6%B3%95%E5%9D%91/" class="md-footer__link md-footer__link--prev" aria-label="上一页: JS语法糖及语法坑" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                上一页
+              </span>
+              JS语法糖及语法坑
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../../other/" class="md-footer__link md-footer__link--next" aria-label="下一页: 其他" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                下一页
+              </span>
+              其他
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+      
+      
+    
+    <a href="https://github.com/ssast-readme/ssast-readme.github.io" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+    </a>
+  
+    
+    
+      
+      
+    
+    <a href="https://twitter.com/squidfunk" target="_blank" rel="noopener" title="twitter.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+    </a>
+  
+    
+    
+      
+      
+    
+    <a href="https://www.linkedin.com/in/squidfunk" target="_blank" rel="noopener" title="www.linkedin.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.instant", "navigation.tabs", "navigation.sections", "navigation.top"], "translations": {"clipboard.copy": "\u590d\u5236", "clipboard.copied": "\u5df2\u590d\u5236", "search.config.lang": "ja", "search.config.pipeline": "trimmer, stemmer", "search.config.separator": "[\\uff0c\\u3002]+", "search.placeholder": "\u641c\u7d22", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.term.missing": "\u7f3a\u5c11", "select.version.title": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}, "search": "../../../assets/javascripts/workers/search.bd0b6b67.min.js"}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.8aa65030.min.js"></script>
+      
+        <script src="../../../javascripts/mathjax.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>
