@@ -237,40 +237,6 @@ Arch 系统一向偏好将软件和依赖都升级到最新版本，这会让 Ub
 
 当然，软件是无穷无尽的，这里笔者只介绍一些同学们热点关注的软件。
 
-### 代理软件
-
-干这一行避不开挂代理的操作，不挂代理的话很多常用的网站和工具都无法正常使用。但是这一步通常会涉及死循环——在不挂代理的情况下获取常见的代理软件。这个问题就交给同学们自己处理惹。
-
-<table>
-    <tr>
-    	<td>
-        	<img alt="v2ray-logo" src="/tech/Intro-To-Manjaro/img/v2ray-logo.png" width="512px" />
-        </td>
-        <td>
-        	<img alt="clash-logo" src="/tech/Intro-To-Manjaro/img/clash-logo.png" />
-        </td>
-        <td>
-        	<img alt="shadowsocks-logo" src="/tech/Intro-To-Manjaro/img/ss-logo.png" />
-        </td>
-    </tr>
-    <caption style="caption-side: bottom;">常见的代理软件</caption>
-</table>
-
-如果同学们对 Linux 上的代理软件不熟悉，这里提供几种常见的代理软件，这里可以参考维基页面：[V2Ray](https://wiki.archlinux.org/title/V2Ray_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87))、[Clash](https://wiki.archlinux.org/title/Clash) 和 [Trojan](https://wiki.archlinux.org/title/Trojan)。但是这些都是代理软件的内核，下面列举部分具体的 GUI 界面供参考：[QV2Ray](https://wiki.archlinux.org/title/Qv2ray_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87))、[clash-for-windows(Linux版)](https://aur.archlinux.org/packages/clash-for-windows-bin) 和 [V2RayA](https://github.com/v2rayA/v2rayA)。
-
-同学们要牢记，**在 Linux 系统中，即使设置了代理，部分软件也可以选择不使用代理**。尽管用不用代理是由软件来决定，我们最好也将本地代理设置到全局环境中。
-
-例如将下述代码加入 `~/.bashrc` 或者 `~/.zshrc` 中以供 Shell 获取代理信息，也可以在 `~/.profile` 中设置：
-```bash
-# 端口需自行修改
-export http_proxy="http://127.0.0.1:8889"
-export https_proxy="http://127.0.0.1:8889"
-export HTTP_PROXY="http://127.0.0.1:8889"
-export HTTPS_PROXY="http://127.0.0.1:8889"
-```
-
-此外，在“设置”—“网络连接”—“代理”中自行设置本地代理地址，以供桌面程序获取代理信息。
-
 ### zsh
 
 如果你曾经是 Mac 用户，那你对 zsh 应该不会陌生。zsh 可以提供了比 bash 更加丰富的功能，例如命令自动补全，git 插件和高光等。
