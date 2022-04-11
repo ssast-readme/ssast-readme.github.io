@@ -47,6 +47,7 @@
 如果说 Arch 是没有躯壳的自由的灵魂，那 Manjaro 就是一个带着自由灵魂的健全人。Arch 系统繁杂的配置显然不能让所有人都满意，因此 **Manjaro 作为基于 Arch 的最流行发行版，在最大程度保留 DIY 自由度的情况下，简化了 Arch 的配置流程**。
 
 在写下这篇文章的时候，笔者已经将 Manjaro 系统当作日常主力使用了 2 年时间，下面是笔者个人总结出的有关于 Manjaro 的优缺点：
+
 - **优点**：
     - 完善且纯粹的 Linux 系统，再也不用担心 WIN 配环境炸裂惹，轻松种码和炼丹
     - Pacman 保证所有软件和库都在最新版本
@@ -74,6 +75,7 @@
 ### 下载镜像
 
 在 Manjaro 的官网的[下载页面](https://manjaro.org/download/)中，我们可以下载 Manjaro 的 ISO 镜像，目前可供选择的有 3 个版本，区别大致如下：
+
 - Xfce：轻量级桌面环境，资源消耗少
 - KDE Plasma（推荐）：功能完善，自定义程度高的桌面环境，资源消耗大
 - GNOME：GNU 的桌面环境，也是 Ubuntu 默认的桌面环境，资源消耗中等
@@ -178,6 +180,7 @@ Manjaro 上的输入法配置，根据用户的选择不同，有许许多多花
 KDE 桌面推荐使用 fcitx5 或者 fcitx 作为输入法框架，GNOME 桌面用 IBus 更稳定。
 
 因此在入门篇就列出几个经典输入法的安装教程，供同学们去自行参考并选择：
+
 - [默认 fcitx5 输入法与美化](https://www.cnblogs.com/fatalord/p/13850072.html)
 - [fcitx 的多种输入法](https://zhuanlan.zhihu.com/p/468429000)
 - [IBus 配置](https://linuxacme.cn/559/)
@@ -263,6 +266,7 @@ yay -S microsoft-edge-stable-bin
 腾讯系软件在日常生活中不可或缺。值得注意的是这些软件并没有 Linux 版本，或者其 Linux 版本十分复古难用，因此我们会使用 [wine](https://wiki.archlinux.org/title/Wine_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)) 或者 [deepin-wine](https://wiki.archlinux.org/title/Deepin-wine) 容器来运行。
 
 下面是具体参考资料：
+
 - [QQ/TIM ArchWiki](https://wiki.archlinux.org/title/Tencent_QQ_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87))
 - [WeChat ArchWiki](https://wiki.archlinux.org/title/WeChat_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87))
 - [腾讯会议-bin](https://aur.archlinux.org/packages/wemeet-bin)
@@ -313,6 +317,7 @@ yay -S qqmusic-bin
 ### 代码编辑
 
 vscode 和 JetBrains 全家桶足够满足日常的使用需求。具体安装可参考：
+
 - [vscode ArchWiki](https://wiki.archlinux.org/title/Visual_Studio_Code_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87))
 - [JetBrains Toolbox](https://aur.archlinux.org/packages/jetbrains-toolbox)：使用 Toolbox 来管理安装 JetBrains 全家桶
 
@@ -329,6 +334,7 @@ vscode 和 JetBrains 全家桶足够满足日常的使用需求。具体安装�
 ## 系统主题美化（KDE）
 
 KDE 桌面的美化十分简单，例如：
+
 - **主题更换**：在“设置”中切换到“主题”，便可以在 KDE Store 中选择自己想要的主题，甚至可以模仿 Mac、Win10 和 Win11 等。
 - **桌面部件**：在桌面上右键后，可以添加小部件并移至桌面上。小部件也可以通过在线方式获取。
 - **背景更换**：KDE 的桌面背景可以通过在桌面右键，并选择对应选项后更换。当然，如果你的 Steam 账号拥有 Wallpaper Engine 这款知名的动态壁纸软件，你也可以安装 [wallpaper-engine-plugin](https://github.com/catsout/wallpaper-engine-kde-plugin)，或者直接在 KDE Store 中选择安装此插件并配置后，即可调用 Wallpaper Engine 中的动态壁纸。
