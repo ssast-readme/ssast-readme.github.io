@@ -320,6 +320,20 @@
 
             
           
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ReadMe%E5%BF%97%E6%84%BF%E5%B7%A5%E6%97%B6%E5%8F%91%E6%94%BE%E6%A0%87%E5%87%86/" class="md-nav__link">
+        志愿工时发放标准
+      </a>
+    </li>
+  
+
+            
+          
         </ul>
       </nav>
     </li>
@@ -1099,30 +1113,35 @@ let m = (l + r) / 2;
 <li>另外，如果要判断一个变量的类型是否为数组，应使用<code>Array.isArray()</code>函数，因为<code>typeof</code>会返回<code>object</code>，这在于数组是基于对象实现的。</li>
 </ul>
 <h3 id="_13">值的比较</h3>
-<p><code>JavaScript</code> 在比较不同类型的数据时，可能会产生难以预料的结果。再加上<code>null</code>、<code>undefine</code>以及<code>NaN</code>的存在，这个语法坑可谓常见且不友善，需要我们特别注意。
-  ```JavaScript
-console.log('2' &gt; 1);            // true
+<p><code>JavaScript</code> 在比较不同类型的数据时，可能会产生难以预料的结果。再加上<code>null</code>、<code>undefine</code>以及<code>NaN</code>的存在，这个语法坑可谓常见且不友善，需要我们特别注意。</p>
+<pre><code class="language-JavaScript">console.log('2' &gt; 1);            // true
 console.log('001' == 1);         // true
 console.log('001' === 1);        // false
 console.log(null == 0);          // false
 console.log(false == 0);         // true
 console.log(false === 0);        // false
 console.log(null == undefined);  // true
-console.log(null === undefined); // false</p>
-<p>console.log('02' != 2);             // false
+console.log(null === undefined); // false
+
+
+console.log('02' != 2);             // false
 console.log('02' !== 2);            // true
 console.log(2 &gt; undefined);         // false
 console.log('0x123' &gt; null);        // true
 console.log(NaN == NaN);            // false
 console.log(NaN === NaN);           // false
 console.log(Object.is(NaN, NaN));   // true
-  <code>``
-- 以上这些千奇百怪的例子只是为了辅助说明，没有必要去专门背诵，我们记住一些基本的原则即可：
-    -</code>JavaScript<code>对不同类型的值进行比较时，会将它们转化为</code>number<code>再判断大小；
-    - 不要尝试使用</code>&gt; &lt; &gt;= &lt;=<code>去比较一个可能为</code>null<code>或者</code>undefined<code>的变量，这可能会导致结果失控；
-    - 除非你确信自己的代码是无懈可击的，否则还是建议使用</code>===<code>、</code>!==<code>，因为它们不会进行类型转换，整体效率也好一些；
-    - 在大部分情形下，</code>Object.is(a, b)<code>与</code>a === b<code>效果相同，只是有两个特例，一是上文中所展示的</code>Object.is(NaN, NaN) = true<code>，另一个则是</code>Object.is(0, -0) === false`；
-- 另外，如果你打算进行字符串的比较，请记住 (小写字母) 始终大于 (大写字母)：</p>
+</code></pre>
+<ul>
+<li>以上这些千奇百怪的例子只是为了辅助说明，没有必要去专门背诵，我们记住一些基本的原则即可：<ul>
+<li><code>JavaScript</code>对不同类型的值进行比较时，会将它们转化为<code>number</code>再判断大小；</li>
+<li>不要尝试使用<code>&gt; &lt; &gt;= &lt;=</code>去比较一个可能为<code>null</code>或者<code>undefined</code>的变量，这可能会导致结果失控；</li>
+<li>除非你确信自己的代码是无懈可击的，否则还是建议使用<code>===</code>、<code>!==</code>，因为它们不会进行类型转换，整体效率也好一些；</li>
+<li>在大部分情形下，<code>Object.is(a, b)</code> 与 <code>a === b</code> 效果相同，只是有两个特例，一是上文中所展示的<code>Object.is(NaN, NaN) = true</code>，另一个则是<code>Object.is(0, -0) === false</code>；</li>
+</ul>
+</li>
+<li>另外，如果你打算进行字符串的比较，请记住 (小写字母) 始终大于 (大写字母)：</li>
+</ul>
 <pre><code class="language-JavaScript">console.log('apple' &gt; 'Zpple');  // true
 </code></pre>
 <h3 id="_14">对象拷贝</h3>
