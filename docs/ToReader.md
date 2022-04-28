@@ -56,7 +56,9 @@ ReadMe会分类展示稿件。每个文档后都会附上源文件的github仓�
 #### 1.如何提交一个Pull Request？
 
 可以参考如下链接：
-GitHub 的 Pull Request 是指什么意思？ - beepony的回答 - 知乎 https://www.zhihu.com/question/21682976/answer/79489643
+GitHub 的 Pull Request 是指什么意思？ 
+
+- beepony的回答 - 知乎 [https://www.zhihu.com/question/21682976/answer/79489643](https://www.zhihu.com/question/21682976/answer/79489643)
 
 #### 2. Pull Request 提交规范
 

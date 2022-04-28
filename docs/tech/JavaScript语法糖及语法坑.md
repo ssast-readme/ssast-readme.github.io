@@ -168,7 +168,7 @@ let m = (l + r) / 2;
 
 ### 值的比较
 `JavaScript` 在比较不同类型的数据时，可能会产生难以预料的结果。再加上`null`、`undefine`以及`NaN`的存在，这个语法坑可谓常见且不友善，需要我们特别注意。
-  ```JavaScript
+```JavaScript
 console.log('2' > 1);            // true
 console.log('001' == 1);         // true
 console.log('001' === 1);        // false
@@ -186,7 +186,8 @@ console.log('0x123' > null);        // true
 console.log(NaN == NaN);            // false
 console.log(NaN === NaN);           // false
 console.log(Object.is(NaN, NaN));   // true
-  ```
+```
+
 - 以上这些千奇百怪的例子只是为了辅助说明，没有必要去专门背诵，我们记住一些基本的原则即可：
     - `JavaScript`对不同类型的值进行比较时，会将它们转化为`number`再判断大小；
     - 不要尝试使用`> < >= <=`去比较一个可能为`null`或者`undefined`的变量，这可能会导致结果失控；
