@@ -11,6 +11,12 @@ nav:
     - 其他: "note/other.md"
   - 作业攻略: 
     - 介绍: "homework/homework.md"
+    - 数据结构OJ较难作业解析:
+      - By 作者: "homework/dsa-OJ/README.md"
+      - OJ1-3_灯塔_归并排序: "homework/dsa-OJ/OJ1/OJ1-3.md"
+      - OJ2-3_游戏_括号匹配: "homework/dsa-OJ/OJ2/OJ2-3.md"
+      - OJ3-2_旅行商_拓扑排序: "homework/dsa-OJ/OJ3/OJ3-2.md"
+      - OJ3-3_气象台_KD树: "homework/dsa-OJ/OJ3/OJ3-3.md"
     - 其他: "homework/other.md"
   - 技术分享: 
     - 介绍: "tech/tech.md"
