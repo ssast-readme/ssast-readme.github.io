@@ -1,6 +1,6 @@
 # 欢迎 Welcome
 
-<img src="img/web/help_doc.jpg" alt="互助文档" style="zoom: 50%;" />
+<img src="img/web/logo.jpg" alt="互助文档" style="zoom: 50%;" />
 
 在大学的生活，也许并没有那么一帆风顺
 

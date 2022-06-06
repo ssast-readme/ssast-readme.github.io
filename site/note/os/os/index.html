@@ -1,0 +1,1850 @@
+
+<!doctype html>
+<html lang="zh" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-8.2.1">
+    
+    
+      
+        <title>操作系统复习提纲 - ReadMe 软件学院互助文档</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.e8d9bf0c.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.e6a45f82.min.css">
+        
+          
+          
+          <meta name="theme-color" content="#009485">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="teal" data-md-color-accent="">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#_1" class="md-skip">
+          跳转至
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="页眉">
+    <a href="../../.." title="ReadMe 软件学院互助文档" class="md-header__button md-logo" aria-label="ReadMe 软件学院互助文档" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 9h5.5L13 3.5V9M6 2h8l6 6v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4c0-1.11.89-2 2-2m9 16v-2H6v2h9m3-4v-2H6v2h12z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            ReadMe 软件学院互助文档
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              操作系统复习提纲
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="搜索" placeholder="搜索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="查找">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="清空当前内容" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            正在初始化搜索引擎
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="标签" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../.." class="md-tabs__link">
+        首页
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../note/" class="md-tabs__link md-tabs__link--active">
+        课程笔记
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../homework/homework/" class="md-tabs__link">
+        作业攻略
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../tech/tech/" class="md-tabs__link">
+        技术分享
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="导航栏" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="ReadMe 软件学院互助文档" class="md-nav__button md-logo" aria-label="ReadMe 软件学院互助文档" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 9h5.5L13 3.5V9M6 2h8l6 6v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4c0-1.11.89-2 2-2m9 16v-2H6v2h9m3-4v-2H6v2h12z"/></svg>
+
+    </a>
+    ReadMe 软件学院互助文档
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1" type="checkbox" id="__nav_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_1">
+          首页
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="首页" data-md-level="1">
+        <label class="md-nav__title" for="__nav_1">
+          <span class="md-nav__icon md-icon"></span>
+          首页
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        欢迎
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ToAuthor/" class="md-nav__link">
+        致作者
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ToReader/" class="md-nav__link">
+        致读者
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ReadMe%E5%BF%97%E6%84%BF%E5%B7%A5%E6%97%B6%E5%8F%91%E6%94%BE%E6%A0%87%E5%87%86/" class="md-nav__link">
+        志愿工时发放标准
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2">
+          课程笔记
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="课程笔记" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          课程笔记
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../note/" class="md-nav__link">
+        介绍
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          操作系统复习提纲
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        操作系统复习提纲
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    第一章  概述
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    第二章  进程管理
+  </a>
+  
+    <nav class="md-nav" aria-label="第二章  进程管理">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    进程
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    线程
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    进程间通信与同步
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    进程调度
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    第三章  存储管理
+  </a>
+  
+    <nav class="md-nav" aria-label="第三章  存储管理">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    单道存储管理
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    分区管理
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    段式和页式管理
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    虚拟存储
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#io" class="md-nav__link">
+    第四章  I/O设备管理
+  </a>
+  
+    <nav class="md-nav" aria-label="第四章  I/O设备管理">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#io_1" class="md-nav__link">
+    I/O硬件
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#io_2" class="md-nav__link">
+    I/O控制
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#io_3" class="md-nav__link">
+    I/O软件
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_13" class="md-nav__link">
+    磁盘
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_14" class="md-nav__link">
+    第五章  文件系统
+  </a>
+  
+    <nav class="md-nav" aria-label="第五章  文件系统">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_15" class="md-nav__link">
+    文件
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_16" class="md-nav__link">
+    目录
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_17" class="md-nav__link">
+    扇区存储
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_18" class="md-nav__link">
+    系统调用
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_19" class="md-nav__link">
+    空闲空间管理
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_20" class="md-nav__link">
+    第六章  操作系统安全
+  </a>
+  
+    <nav class="md-nav" aria-label="第六章  操作系统安全">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_21" class="md-nav__link">
+    加密
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_22" class="md-nav__link">
+    用户认证
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_23" class="md-nav__link">
+    系统内部攻击
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_24" class="md-nav__link">
+    系统外部攻击
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_25" class="md-nav__link">
+    第二点五章  死锁
+  </a>
+  
+    <nav class="md-nav" aria-label="第二点五章  死锁">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_26" class="md-nav__link">
+    资源分配图
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_27" class="md-nav__link">
+    死锁对应
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../other/" class="md-nav__link">
+        其他
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          作业攻略
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="作业攻略" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          作业攻略
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../homework/homework/" class="md-nav__link">
+        介绍
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_2" type="checkbox" id="__nav_3_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_2">
+          数据结构OJ较难作业解析
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="数据结构OJ较难作业解析" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_2">
+          <span class="md-nav__icon md-icon"></span>
+          数据结构OJ较难作业解析
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../homework/dsa-OJ/" class="md-nav__link">
+        By 作者
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../homework/dsa-OJ/OJ1/OJ1-3/" class="md-nav__link">
+        OJ1-3_灯塔_归并排序
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../homework/dsa-OJ/OJ2/OJ2-3/" class="md-nav__link">
+        OJ2-3_游戏_括号匹配
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../homework/dsa-OJ/OJ3/OJ3-2/" class="md-nav__link">
+        OJ3-2_旅行商_拓扑排序
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../homework/dsa-OJ/OJ3/OJ3-3/" class="md-nav__link">
+        OJ3-3_气象台_KD树
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../homework/other/" class="md-nav__link">
+        其他
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4">
+          技术分享
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="技术分享" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          技术分享
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../tech/tech/" class="md-nav__link">
+        介绍
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../tech/JavaScript%E8%AF%AD%E6%B3%95%E7%B3%96%E5%8F%8A%E8%AF%AD%E6%B3%95%E5%9D%91/" class="md-nav__link">
+        JS语法糖及语法坑
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../tech/Intro-To-Manjaro/ManjaroIntro/" class="md-nav__link">
+        Manjaro系统入门
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../tech/other/" class="md-nav__link">
+        其他
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    第一章  概述
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    第二章  进程管理
+  </a>
+  
+    <nav class="md-nav" aria-label="第二章  进程管理">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    进程
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    线程
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    进程间通信与同步
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    进程调度
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    第三章  存储管理
+  </a>
+  
+    <nav class="md-nav" aria-label="第三章  存储管理">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    单道存储管理
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    分区管理
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    段式和页式管理
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    虚拟存储
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#io" class="md-nav__link">
+    第四章  I/O设备管理
+  </a>
+  
+    <nav class="md-nav" aria-label="第四章  I/O设备管理">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#io_1" class="md-nav__link">
+    I/O硬件
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#io_2" class="md-nav__link">
+    I/O控制
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#io_3" class="md-nav__link">
+    I/O软件
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_13" class="md-nav__link">
+    磁盘
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_14" class="md-nav__link">
+    第五章  文件系统
+  </a>
+  
+    <nav class="md-nav" aria-label="第五章  文件系统">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_15" class="md-nav__link">
+    文件
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_16" class="md-nav__link">
+    目录
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_17" class="md-nav__link">
+    扇区存储
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_18" class="md-nav__link">
+    系统调用
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_19" class="md-nav__link">
+    空闲空间管理
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_20" class="md-nav__link">
+    第六章  操作系统安全
+  </a>
+  
+    <nav class="md-nav" aria-label="第六章  操作系统安全">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_21" class="md-nav__link">
+    加密
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_22" class="md-nav__link">
+    用户认证
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_23" class="md-nav__link">
+    系统内部攻击
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_24" class="md-nav__link">
+    系统外部攻击
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_25" class="md-nav__link">
+    第二点五章  死锁
+  </a>
+  
+    <nav class="md-nav" aria-label="第二点五章  死锁">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_26" class="md-nav__link">
+    资源分配图
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_27" class="md-nav__link">
+    死锁对应
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+
+
+<h1 id="_1">操作系统</h1>
+<blockquote>
+<p>By Kirino: 去年复习的时候为了方便查阅知识点，把一些个人认为重要的条目整理了一下。建议使用方法：ctrl+F查找关键字.</p>
+</blockquote>
+<h2 id="_2">第一章  概述</h2>
+<p>主板上有中央处理器、内存、显示器、键盘、磁盘驱动器等。</p>
+<p>计算机指令是计算机运行的最小功能单元。包括算数、逻辑、移位、输入输出等指令。</p>
+<p>操作系统是硬件和应用软件之间的通用软件，可以管理部件、提供接口。</p>
+<p><strong>发展历史</strong></p>
+<ul>
+<li>没有操作系统时期，一次完成一个功能。</li>
+<li>串行的单通道批处理。CPU和I/O设备忙闲不均。</li>
+<li>多通道批处理（现代意义的操作系统）。宏观上并行，微观上串行。等待I/O时可以使用CPU。</li>
+<li>分时系统。多个用户通过终端分享一台计算机。CTSS、MULTICS、UNIX</li>
+<li>现代操作系统：受保护指令、系统调用、内存保护、中断、I/O、时钟</li>
+</ul>
+<p>特权指令：访问硬件、IO设备直接访问、内存管理状态操作、特殊状态位设置、停机等</p>
+<p>CPU的管态和目态：x86的R0、R1、R2相当于管态R3相当于目态。通过程序状态字<code>PSW</code>表征状态。</p>
+<p>从管态切换到目态只需要修改<code>PSW</code>，从目态切换到管态的唯一途径是中断。</p>
+<p>内存保护可以通过基地址寄存器和边界寄存器完成。</p>
+<p>中断是驱动齿轮，指的是由于某个事件的发生，改变了正在CPU上执行的指令的顺序。中断可以不响应。</p>
+<ul>
+<li>
+<p>同步中断：异常，由CPU检测到（错误Fault、陷阱Trap和中止Abort，如除以0）或由程序设定的中断请求（即调用系用调用的软中断）。</p>
+</li>
+<li>
+<p>异步中断：其他的硬件设备在任意时刻所发出的中断</p>
+<ul>
+<li>可屏蔽：外部设备正常结束或发生错误。可以处理</li>
+<li>不可屏蔽：掉电等硬件故障引起的中断。不可处理</li>
+</ul>
+</li>
+</ul>
+<p>用0～255（一个字节）的整数表示中断，称为中断向量。</p>
+<p>分时系统中，间隔时钟实现进程间按时间片轮转。实时系统中，按要求的间隔输出正确的时间信号给实时的控制设备。</p>
+<h2 id="_3">第二章  进程管理</h2>
+<h3 id="_4">进程</h3>
+<p>指令执行过程：</p>
+<ul>
+<li>取指周期：取指（PC向后移动）、译码。若有间接地址，进行地址映射</li>
+<li>执行周期：执行指令。之后判断是否有中断。若有，进入中断周期。</li>
+</ul>
+<p>进程是一个正在执行的程序，包括程序代码、数据、CPU寄存器的值、堆栈、系统资源（如地址空间、文件）。</p>
+<p>全局变量放在进程的数据段，局部变量放在栈里。未初始化的放在dss。</p>
+<p>进程的内存由高到低微内核区、栈、堆、数据段、代码段、保留段。</p>
+<p>进程具有动态性、独立性和并发性。</p>
+<p>只有一种创建进程的方法， 即在一个已经存在的进程(用户进程或系统进程)当中，通过系统调用来创建一个新的进程。</p>
+<p>进程的三种状态：运行、就绪、阻塞</p>
+<p>转移时不能从阻塞回到运行，而就绪了就不会被阻塞。</p>
+<p>通过进程控制块<code>PCB</code>描述进程，是进程存在的唯一标志，存放在内存中。包括进程管理、存储管理和文件管理。</p>
+<p>通过维护运行、就绪、阻塞队列来管理进程。</p>
+<h3 id="_5">线程</h3>
+<p>线程是功能运行的基本单位，线程之间并发执行，享用相同地址空间。</p>
+<p>线程通过线程控制块<code>TCB</code>描述。寄存器和程序状态字等由线程独享，在<code>TCB</code>中。文件、内存等资源由线程共享，不在<code>TCB</code>中。</p>
+<p>线程同样具有三种状态。</p>
+<h3 id="_6">进程间通信与同步</h3>
+<ul>
+<li>进程互斥：访问共享资源时不会互相妨碍。</li>
+<li>进程同步：存在依赖关系时的先后次序。</li>
+</ul>
+<p>低级通信：只能传递状态和整数值</p>
+<ul>
+<li>信号量：面向用户</li>
+<li>信号：面向OS</li>
+</ul>
+<p>高级通信：传递任意数量数据</p>
+<ul>
+<li>共享内存：三份缓冲区，共享区（存放共享变量）、写入区、读取区。读和写都需要先把共享区做一个映射，
+  映射到本地划出来的空间，在本地访问。</li>
+<li>消息传递：向中间件发送消息，订阅后获得消息。分为直接通信（利用套接字）和间接通信（利用消息队列）两种模式。</li>
+<li>管道：一个进程的输出直接连接到另一个进程的输入</li>
+</ul>
+<p>进程互斥是因为竞争CPU或共享资源，处于竞争状态。</p>
+<p>互斥：同一时刻，只允许一个进程访问同一个共享数据。</p>
+<p>临界资源：把需要互斥访问的共享内存或文件</p>
+<p>临界区：访问临界资源的代码</p>
+<p><strong>互斥访问的四个条件</strong></p>
+<ol>
+<li>不能同时进入临界区</li>
+<li>不能假定CPU核数</li>
+<li>在临界区外时不能妨碍其他进程进入临界区</li>
+<li>不会被饿死</li>
+</ol>
+<p><strong>几种实现方法</strong></p>
+<ul>
+<li>
+<p>基于关闭中断：进入临界区后关闭所有中断，不会进行进程切换，退出再打开。操作系统经常干。</p>
+</li>
+<li>
+<p>基于繁忙等待</p>
+</li>
+<li>
+<p>加锁标志法：图书馆借书。会竞争锁，套娃。</p>
+</li>
+<li>
+<p>强制轮转法：定义顺序。违反条件三。</p>
+</li>
+<li>
+<p>Peterson</p>
+</li>
+</ul>
+<pre><code class="language-c++">interested[process] = TRUE; // 表明本进程感兴趣 
+turn = other; //设置标志位，谦让给对方 
+while(interested[other] == TRUE &amp;&amp; turn == other);
+</code></pre>
+<p>缺点：浪费CPU时间、高优先级抢走CPU后会死锁</p>
+<ul>
+<li>
+<p>信号量</p>
+<ul>
+<li><strong>P</strong>原语:申请一个空闲资源(把信号量减<strong>1</strong>)，若成功，则退出;若失败，则该进程被阻塞</li>
+<li><strong>V</strong>原语:释放一个被占用资源(把信号量加<strong>1</strong>)，若发现有被阻塞的进程，则选择一个唤醒之。</li>
+</ul>
+</li>
+</ul>
+<p>互斥时，初始化为资源数量；同步时，初始化为0，且P和V在不同进程间交替出现。</p>
+<p>信号量由操作系统创建，使用不当时也会造成死锁。</p>
+<h3 id="_7">进程调度</h3>
+<p>CPU繁忙：大部分时间处于运行和就绪</p>
+<p>I/O繁忙：大部分时间处于阻塞</p>
+<p>调度时机：新进程被创建、进程运行完、等待I/O、I/O中断发生（异步中断）、时钟中断发生（同步中断）</p>
+<p>调度方式：</p>
+<ul>
+<li>不可抢占：需要等待进程主动放弃CPU。批处理。</li>
+<li>可抢占：可以被中断打断。交互式、实时。</li>
+</ul>
+<p>评价指标：周转时间、平均周转时间、等待时间、响应时间、吞吐量、CPU利用率等</p>
+<p>进程切换：寄存器被push进栈，而栈指针SP等值被更新到<code>PCB</code>中</p>
+<p>调度算法：</p>
+<ul>
+<li>先来先服务FCFS</li>
+<li>短作业优先SJF（属于优先级）。可以得到最小平均周转时间</li>
+<li>时间片轮转Round-Robin：时钟中断中把现在执行的进程扔到队尾。<ul>
+<li>公平性、活动性</li>
+<li>时间片q太大退化为FCFS，太小系统开销大。一半确定在20-50ms</li>
+</ul>
+</li>
+<li>优先级<ul>
+<li>可抢占、不可抢占</li>
+<li>优先级的确定分为动态和静态</li>
+<li>静态：创建时就确定优先级，低优先级的进程处于“饥饿状态”</li>
+<li>动态：每执行一个时间片就降低优先级，等待时间延长就提高优先级</li>
+<li>优先级队列法：按照不同优先级分组，各级别之间使用优先级，统一级别之间使用时间片轮转。但是会出现优先级反转。</li>
+<li>多级队列算法：先按照性质和类型（系统、用户、批处理）将就绪队列分为子队列，不同队列可以采用不同的调度算法。</li>
+<li>多级反馈队列：优先级越高的队列时间片越短，如果用完了时间片还没进行完，则降级，如果提前用完，则升级。只有高优先级队列为空时才调度低优先级的。照顾短作业/IO繁忙/新进程。CPU繁忙进程采用最大时间片来执行，减少调度次数。</li>
+</ul>
+</li>
+</ul>
+<h2 id="_8">第三章  存储管理</h2>
+<p>存储器层次结构：寄存器、高速缓存、主存储器（DRAM）、外存。寄存器读取只要半个时钟周期。</p>
+<h3 id="_9">单道存储管理</h3>
+<p>把内存分为系统区和用户区，每次将一个程序装到用户区，和操作系统共享内存。</p>
+<p>简单，开销小，易于管理。每次只能运行一个程序，内存资源使用效率不高。</p>
+<h3 id="_10">分区管理</h3>
+<p>把用户区再划分为多个分区，那个进程占用一个分区。支持多通道和并发。</p>
+<p><strong>分区策略</strong></p>
+<ul>
+<li>
+<p>固定分区</p>
+<ul>
+<li>
+<p>一半分为多个小分区，适当中分区，少量大分区。</p>
+</li>
+<li>
+<p>通过<code>内存分配表</code>实现。表中记录分区号、起始地址、状态、进程名。</p>
+</li>
+<li>使用最先匹配或最佳匹配进行分配（会有内碎片）</li>
+</ul>
+</li>
+<li>
+<p>动态分区</p>
+<ul>
+<li>进程若干占用区和空闲区相间的布局</li>
+<li>减少了内碎片（但也有空间预留），有外碎片，即个占用分区之间难以利用的空间</li>
+<li>通过<code>分区链表</code>记录每个内存块是否被占用、起始地址和长度</li>
+<li>使用内存紧缩技术可以合并空闲空间</li>
+<li>最先、下次匹配法：从某一位置出发，找到第一个比他大的就分配。下次匹配可以保证空闲空间最平均</li>
+<li>最佳匹配法：找到大小最相近的。但是外碎片很细碎，浪费很大</li>
+<li>最坏匹配：与上一个相反。大小最平均。</li>
+</ul>
+</li>
+<li>
+<p>物理地址：内存地址、绝对地址、实地址。可以直接寻址</p>
+</li>
+<li>
+<p>逻辑地址：相对于分区首地址的地址</p>
+</li>
+<li>
+<p>静态地址映射：装入内存时直接对指令代码进行修改，相当于编译时改了源码。</p>
+</li>
+<li>动态地址映射<ul>
+<li>运行时通过硬件地址映射机制完成，即访问时在相对地址上加上几地址寄存器的值。进程切换时填入基地址寄存器。加入限长寄存器可以保护内存。</li>
+<li>CPU发送逻辑地址给存储管理单元<code>MMU</code>，判断是否越界，若不，则取出基地址寄存器的值，加上得到物理地址。<code>MMU</code>再将物理地址给内存。</li>
+</ul>
+</li>
+</ul>
+<h3 id="_11">段式和页式管理</h3>
+<p><strong>页式管理</strong></p>
+<p>把物理内存切分为固定大小的内存块，为物理页框，逻辑地址空间也切开，为逻辑页面。用不必连续的页框装在页面即可。有内碎片。</p>
+<p>通过<code>页表</code>给出内存块号和物理页号之间的关系。在内存中访问页表得到物理页框号。由操作系统创建。</p>
+<p>用<code>物理页面表</code>表征物理页框的分配情况。使用Bitmap即可。</p>
+<p>分配时，申请一个页表，放入PCB。填充分配情况，同时物理页面表修改Bitmap。</p>
+<p>若只有一页，退化为固定分区。</p>
+<p>每个页表项包含以下信息：逻辑页号、物理页号、驻留位、保护位、修改位、访问位。</p>
+<p><strong>地址映射</strong>：逻辑地址-&gt;页面号-&gt;页框号-&gt;物理地址</p>
+<p>若取页面大小为<span class="arithmatex">\(2^n\)</span>，则逻辑地址低n位就为偏移量，高位为页面号。</p>
+<p>页表保存在内核空间，用户不能修改。页表通过页表基地址寄存器+页号（偏移量）寻得物理页框号。</p>
+<p>需要两次内存访问，若使用TLB（Translation Lookaside Buffer），可以减少到一次。</p>
+<p>没有外碎片，内碎片平均为半页。但是程序必须都装进内存，那个进程都要维护一张页表。</p>
+<p><strong>段式管理</strong></p>
+<p>根据逻辑单元分段。采用可变分区管理，段内不必连续。</p>
+<p>维护<code>段表</code>进行管理和寻址。高几位为段号，后面为段内偏移。保存在内存中，同时设置基地址寄存器和长度寄存器。</p>
+<p>地址映射与页式类似。</p>
+<p>没有内碎片，但是有外碎片。</p>
+<p>若只有一段，退化为可变分区。</p>
+<p>bss段存储未初始化的全局变量，不在可执行文件中，由系统初始化。</p>
+<p><strong>段页式管理</strong></p>
+<p>先分段，段内分页</p>
+<p>最高几位为段号，其次为页号，低位为页内地址。</p>
+<p>有多少个段就有多少个页表。<strong>段表记录每段页表的起始地址和段长</strong>，而非段段物理地址。</p>
+<p>需要访问三次内存。</p>
+<h3 id="_12">虚拟存储</h3>
+<p>局部性原理：较短时期，执行指令地址和操作数地址分别局限于一定区域。TLB和Cache都体现了局部性。</p>
+<p>大部分采取虚拟页式存储。增加请求调页和页面置换功能。</p>
+<p>程序运行时，不是所有页面都装进内存。</p>
+<p>后备存储：把部分页面保存在磁盘上</p>
+<p>后备页面：保存在磁盘上的页面</p>
+<p>页表表项：逻辑页号、物理页号、访问、修改、驻留、保护位。若驻留位位0且访问到，引发缺页中断。若修改过，则应该把内容写会外存。</p>
+<p>缺页中断引发后，PC不变，还是执行当前的指令。</p>
+<p>缺页中断后不一定要执行页面置换算法，若还有内存可以直接载入。</p>
+<p>置换算法：</p>
+<ul>
+<li>最优OPT：淘汰到下一次访问等待时间最长的。只有理论意义。</li>
+<li>最近<strong>最久未使用</strong>LRU：淘汰最老页面。访问后移到链首，淘汰链尾。使用移位寄存器实现。</li>
+<li>最近最少使用LFU：淘汰被访问次数最少的。但是可能违背局部性原理</li>
+<li>FIFO：性能较差，对常驻内存应用不友好。存在Belady现象。</li>
+<li>时钟置换：指针指向最老的。被访问到的flg置为1，淘汰时跳过1，并把1置为0。</li>
+</ul>
+<p><strong>工作集</strong>：<span class="arithmatex">\(W(t,\Delta)\)</span> 时间t处，在之前的窗口长度<span class="arithmatex">\(\Delta\)</span>中访问的逻辑页面集合。是进程的固有属性。</p>
+<p><strong>驻留集</strong>：当前<strong>时刻</strong>实际驻留在内存中的逻辑页面。取决于物理页面数和置换算法。其大小代表了内存中的页框数。</p>
+<ul>
+<li>固定分配：驻留集大小固定，局部页面置换。但分配的物理页面数难以确定</li>
+<li>可变分配：驻留集大小可变，全局页面置换。系统开销较大。使用<code>缺页频率算法PFF</code>动态调整。</li>
+</ul>
+<p>缺页率 = 缺页次数/内存访问次数</p>
+<p>若缺页率过高，增加物理页面数，过低减少。</p>
+<h2 id="io">第四章  I/O设备管理</h2>
+<h3 id="io_1">I/O硬件</h3>
+<ul>
+<li>
+<p>交互方向：输入、输出、输入输出设备</p>
+</li>
+<li>
+<p>数据组织：块设备（以数据块为单位，有块地址。例如磁盘的扇区）、字符设备（数据为字符流，无定位寻址）、网络设备（包含唯一IP地址，接收和发送帧数据）</p>
+</li>
+</ul>
+<p>I/O单元由机械部分和电子设备（设备控制器或适配器）两部分组成。</p>
+<p>适配器是印刷电路卡，控制器是一组芯片，用于完成与主机间的连接和通讯。</p>
+<p><strong>CPU与设备控制器的通信</strong></p>
+<ul>
+<li>I/O独立编址：每个I/O设备一个不同的地址。需要专门的I/O指令，直接操作寄存器。</li>
+<li>内存映像编址：把端口号映射到内存。不需要专门的I/O指令，但是不能对寄存器中的内容进行缓存，且每一次需要判断访问的是内存还是I/O</li>
+<li>混合编址：独立+内存映像</li>
+</ul>
+<h3 id="io_2">I/O控制</h3>
+<p>对CPU依赖从高到低为</p>
+<ul>
+<li>
+<p>循环检测（轮询）</p>
+</li>
+<li>
+<p>中断驱动</p>
+<ul>
+<li>I/O设备发出一个信号</li>
+<li>中断控制器接受，将设备编号放到地址线，向CPU发送一个中断信号</li>
+<li>CPU查询中断向量表，处理中断</li>
+</ul>
+</li>
+<li>
+<p>直接内存访问（Direc Memory Access）（键盘、磁盘）</p>
+<ul>
+<li>硬件上有一个DMA控制器，可以直接访问总线。其中也有各种寄存器</li>
+<li>内存地址寄存器、控制寄存器、字节数计数器</li>
+<li>CPU预先向控制器编程</li>
+<li>之后DMA按照写好的程序控制I/O设备</li>
+<li>完成后发出中断（开始时不会发出中断）</li>
+</ul>
+</li>
+</ul>
+<p><img src="/note/os/img/ReadMe%E9%98%B6%E6%AE%B5%E6%80%BB%E7%BB%93.png" alt="截屏2022-01-06 下午9.40.51" style="zoom:50%;" /></p>
+<p>为了缓解I/O和CPU速度不匹配的矛盾，可以在内存中设置缓冲区。</p>
+<h3 id="io_3">I/O软件</h3>
+<p>重视<strong>设备独立</strong></p>
+<p>阻塞I/O和非阻塞I/O</p>
+<p>由底层到顶层：硬件、中断处理、设备驱动、设备独立的系统软件、用户I/O软件</p>
+<p>设备驱动程序与设备类型相关，一般由设备生产商提供。</p>
+<p>设备驱动直接控制设备控制器。</p>
+<p><strong>两种方案</strong></p>
+<ul>
+<li>系统调用调用设备驱动程序，驱动被阻塞。I/O完成后产生中断，唤醒驱动程序。中断处理由厂家完成。</li>
+<li>请求队列。设备驱动程序为上层函数，管理请求队列；底层函数与硬件打交道。</li>
+</ul>
+<p><strong>设备独立</strong>的I/O软件实现了某些通用I/O功能，并向用户软件提供统一接口。</p>
+<p><strong>用户空间的I/O软件</strong></p>
+<ul>
+<li>库函数：将请求发送到系统调用</li>
+<li>SPOOLing技术：把独占设备转变成具有共享特征的虚拟设备</li>
+</ul>
+<h3 id="_13">磁盘</h3>
+<p>磁道：磁头固定在某一位置，转一圈能够访问到的圆环</p>
+<p>柱面：所有盘面上等半径的磁道</p>
+<p>扇区：一个磁道被划分为若干个扇区</p>
+<p><strong>格式化</strong></p>
+<ul>
+<li>低级格式化：标出扇区和磁道。</li>
+<li>扇区=相位编码（开始码）+数据区+纠错码</li>
+<li>分区：0扇区存放系统启动码和分区表</li>
+<li>高级格式化：生产引导块、根目录和空白文件系统</li>
+</ul>
+<p><strong>磁盘调度</strong></p>
+<p>优化<strong>柱面定位</strong>时间，<strong>旋转延迟</strong>和<strong>数据传送时间</strong>无法优化</p>
+<ul>
+<li>使用连续扇区存储</li>
+<li>使用磁盘调度算法调整I/O请求的执行顺序</li>
+</ul>
+<p><strong>调度算法</strong></p>
+<ul>
+<li>FCFS：简单，公平，但是效率不高</li>
+<li>最短定位时间SSTF：最短距离贪心。磁盘两侧的会饥饿</li>
+<li>电梯算法：扫描算法。磁头移动总距离不会超过柱面总数的两倍</li>
+</ul>
+<h2 id="_14">第五章  文件系统</h2>
+<p>文件是信息存储和访问的基本单位，负责文件相关的系统为文件系统。实现对文件的按名存取。</p>
+<p>文件可以看成单独的、连续的逻辑地址空间，与进程地址空间无关。</p>
+<h3 id="_15">文件</h3>
+<p>对文件系统而言，文件是由<strong>无结构的字节流序列</strong>组成的（逻辑结构），每种文件的存储方式都是一样的。</p>
+<p><strong>分类</strong></p>
+<ul>
+<li>普通文件<ul>
+<li>ASCII文件（明文的文本文件）</li>
+<li>二进制文件（具有某种内部逻辑结构）</li>
+</ul>
+</li>
+<li>目录文件（directory）</li>
+</ul>
+<p>常见文件属性：文件长度（与占用空间不同，占用空间是文件块大小的和，可能占不满一块）、时间戳、只读隐藏标志位</p>
+<p>文件存取：随机存取。每次操作需要指定起始位置。</p>
+<p>访问：打开关闭、读写、添加、定位</p>
+<p>控制：创建删除、获取设置属性、修改名称</p>
+<h3 id="_16">目录</h3>
+<p>目录就是文件夹，是特殊的文件（一张文件表，每个文件的名称、起始地址等信息在里面占一行），以文件的形式存储在磁盘。</p>
+<h3 id="_17">扇区存储</h3>
+<p>块：把磁盘空间划分为<strong>大小相同</strong>的物理块，文件也划分成逻辑块。一个物理块由一个或多个<strong>连续的</strong>扇区组成。块是操作的基本单位。</p>
+<p>主引导记录（<strong>M</strong>aster <strong>B</strong>oot <strong>R</strong>ecord，MBR）：磁盘的0扇区。装载了操作系统的代码，在此启动。末尾存在分区表，记录分区情况。</p>
+<p>BIOS：加电自检（POST），初始化中断向量表、寄存器等，读入引导扇区，启动造作系统。提供硬件和操作系统的衔接。</p>
+<p>扇区大小为<span class="arithmatex">\(2^9\)</span>字节（512字节）</p>
+<p>若是n位寻址，则分区大小为<span class="arithmatex">\(2^n\times 2^9\)</span>。32位为2T。</p>
+<p>分区总数为4，或3主1扩</p>
+<p>Windows限制分区大小256TB，个数128个</p>
+<p>文件控制块<code>FCB</code>：存在<strong>硬盘</strong>中，访问时会加载到内存中。包括文件信息和文件所在物理块信息。Unix中称为I节点。</p>
+<p>存储：</p>
+<ul>
+<li>连续结构：存在连续物理块中，只需要第一个块号和文件大小即可。速度快，但存在<strong>外碎片</strong>。且大小不能动态变化。使用存储紧缩技术合并碎片。</li>
+<li>链表结构：访问第n个逻辑块，要做n-1次磁盘访问。只适合顺序访问。且指针占用额外空间。</li>
+<li>文件分配表FAT（Allocation）：给出逻辑块和物理块的映射关系。把指针单独放到一个文件里（FAT放在磁盘）。将其读入内存中，查到第n块的物理块号，直接读取。<ul>
+<li>项数等于物理块数</li>
+<li>表项宽度n（物理块编号位数）由后面的数字决定（32是28）</li>
+<li><span class="arithmatex">\(FAT表大小 = 表项\times宽度\)</span></li>
+<li><span class="arithmatex">\(寻址最大容量 = 2^n \times 块的大小\)</span></li>
+</ul>
+</li>
+<li>索引结构：物理块编号直接记录在FCB中，支持随机访问，且易于扩展，可以直接定位。</li>
+</ul>
+<p>目录项：位于外存，通过直接法（文件名返回FCB）或间接法（文件名返回FCB地址）组织文件</p>
+<h3 id="_18">系统调用</h3>
+<ul>
+<li>外存中的目录结构、FCB</li>
+<li>内存中的系统内打开文件表（每个文件最多出现一次，使用共享计数，常驻内存。含共享计数和FCB）、进程内打开文件表（进程独享，含打开方式、读写指针和指向系统打开文件表的系统指针表）</li>
+</ul>
+<p>关闭文件时如果做过修改，要把更新后的文件复制回外存，然后从系统打开文件表中删除。</p>
+<h3 id="_19">空闲空间管理</h3>
+<p>空闲空间列表：记录磁盘上的空闲物理块</p>
+<ul>
+<li>Bitmap。位图本身需要放在磁盘上，分配的物理块比较连续。</li>
+<li>链表法：空闲的物理块链在一起。删除时，可以先放到队尾，方便数据恢复。</li>
+<li>索引法：记录所有空闲物理块的编号，常驻内存。</li>
+</ul>
+<h2 id="_20">第六章  操作系统安全</h2>
+<p>计算机安全的三个目标：数据的私密性、完整性、系统的可用性</p>
+<h3 id="_21">加密</h3>
+<p>原文<span class="arithmatex">\(E\)</span>，加密密钥<span class="arithmatex">\(K_E\)</span>，密文<span class="arithmatex">\(D\)</span>，解密密钥<span class="arithmatex">\(K_D\)</span></p>
+<p>若<span class="arithmatex">\(K_E\)</span>与<span class="arithmatex">\(K_D\)</span>有联系或者相同，为对称加密；若毫无关系为非对称加密</p>
+<ul>
+<li>私钥加密：基本就是对称加密。DES、AES。<ul>
+<li>简单、安全。但是密钥交换不保险</li>
+</ul>
+</li>
+<li>公钥加密：每个人的加密密钥公开，要发给谁就用谁的公钥加密，只有那个人可以用私钥解开。RSA。<ul>
+<li>无需传输密钥，但是计算量大，加密慢</li>
+</ul>
+</li>
+<li>目前使用RSA对私钥加密的私钥进行加密，大的文件直接使用私钥加密。</li>
+</ul>
+<p>数字签名：对文件进行Hash，生成digest，并加密。作为验证的数字签名。</p>
+<p>数字证书：使用CA的私钥对公钥加密做认证。</p>
+<h3 id="_22">用户认证</h3>
+<ul>
+<li>基于密码的认证：Cracker可以通过猜密码破解</li>
+<li>基于物理对象的认证：各种卡</li>
+<li>基于生物特征的认证</li>
+</ul>
+<h3 id="_23">系统内部攻击</h3>
+<ul>
+<li>特洛伊木马：程序内嵌破坏性代码</li>
+<li>登陆欺骗：钓鱼网站</li>
+<li>逻辑炸弹：需要定期输入密码，不然就会引爆</li>
+<li>后门：反汇编嵌入代码，跳过检查</li>
+<li>缓冲区溢出</li>
+</ul>
+<h3 id="_24">系统外部攻击</h3>
+<ul>
+<li>病毒：感染文件+破坏，通过移动存储器和网络传播，寄生在宿主程序中<ul>
+<li>可执行程序病毒（插入到正常运行到程序中，寄生）</li>
+<li>常驻内存病毒（修改中断，运行在内核态，寄生在0扇区，先于操作系统启动）</li>
+<li>宏病毒</li>
+</ul>
+</li>
+<li>网络蠕虫：通过网络传播的，不断自我复制的程序，传播但是不更改系统。栖息在内存</li>
+</ul>
+<h2 id="_25">第二点五章  死锁</h2>
+<p>死锁：每个进程都占用着若干资源，同时又在等待改组进程中另一进程所占用的资源。</p>
+<ul>
+<li>可抢占资源：CPU、内存</li>
+<li>不可抢占资源：I/O设备</li>
+</ul>
+<p>死锁一般由不可抢占资源引起</p>
+<p><strong>死锁发生的必要条件</strong></p>
+<ul>
+<li>互斥：同一时刻每个资源最多只能被一个进程使用</li>
+<li>请求和保持：占有资源时申请新资源</li>
+<li>不可抢占</li>
+<li>环路等待</li>
+</ul>
+<h3 id="_26">资源分配图</h3>
+<p>用圆圈表示进程，方框表示资源（与Petri网相反）</p>
+<ul>
+<li>如果图没有环路，不会有死锁</li>
+<li>如果有环路，且每种资源只有一个，死锁。否则说不准。</li>
+</ul>
+<h3 id="_27">死锁对应</h3>
+<ul>
+<li>无为而治</li>
+<li>检测和解除<ul>
+<li>检测<ul>
+<li>人工观察环路</li>
+<li>环路检测算法：资源分配图化简</li>
+</ul>
+</li>
+<li>解除<ul>
+<li>剥夺资源</li>
+<li>进程回退（需要存储备份，代价高）</li>
+<li>撤销进程（kill一个进程，如编译进程）</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>动态避免：系统状态+银行家算法</li>
+<li>死锁预防<ul>
+<li>破坏互斥：假脱机技术。但不通用</li>
+<li>破坏请求保持：不允许占用时申请其他的。可能被饿死</li>
+<li>破坏环路等待：按编号来获取。但是可能无法获取到全部所需资源。</li>
+</ul>
+</li>
+</ul>
+<p><strong>资源分配图化简</strong></p>
+<ul>
+<li>第一步：先看系统还剩下多少资源没分配，再看有哪些进程是不阻塞（“不阻塞”即：系统有足够的空闲资源分配给它）的</li>
+<li>第二步：把不阻塞的进程的所有边都去掉，形成一个孤立的点，再把系统分配给这个进程的资源回收回来</li>
+<li>第三步：看剩下的进程有哪些是不阻塞的，然后又把它们逐个变成孤立的点。</li>
+<li>第四步：最后，所有的资源和进程都变成孤立的点。这样的图就叫做“可完全简化”。</li>
+</ul>
+<p><strong>系统状态的表示</strong></p>
+<ul>
+<li>总资源向量E：每种资源有多少资源</li>
+<li>空闲资源向量A：每种资源有多少空闲资源</li>
+<li>当前分配矩阵C：Cij为进程i占用资源j的个数</li>
+<li>请求矩阵R：Rij为进程i还需要的资源j个数</li>
+</ul>
+<p>分配的 + 空闲的 = 总的</p>
+<p>安全状态：本身不死锁+存在某种调度顺序，就算同时请求最大量也不会寄</p>
+<p><strong>不安全状态不一定会死锁，但死锁一定不安全</strong></p>
+<p>银行家算法：只有系统保证安全状态才分配，避免死锁。但是需求矩阵R难以获得。</p>
+
+              
+            </article>
+          </div>
+        </div>
+        
+          <a href="#" class="md-top md-icon" data-md-component="top" data-md-state="hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"/></svg>
+            回到页面顶部
+          </a>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="页脚">
+      
+        
+        <a href="../../note/" class="md-footer__link md-footer__link--prev" aria-label="上一页: 介绍" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                上一页
+              </span>
+              介绍
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../../other/" class="md-footer__link md-footer__link--next" aria-label="下一页: 其他" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                下一页
+              </span>
+              其他
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+      
+      
+    
+    <a href="https://github.com/ssast-readme/ssast-readme.github.io" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+    </a>
+  
+    
+    
+      
+      
+    
+    <a href="https://twitter.com/squidfunk" target="_blank" rel="noopener" title="twitter.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+    </a>
+  
+    
+    
+      
+      
+    
+    <a href="https://www.linkedin.com/in/squidfunk" target="_blank" rel="noopener" title="www.linkedin.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.instant", "navigation.tabs", "navigation.sections", "navigation.top"], "translations": {"clipboard.copy": "\u590d\u5236", "clipboard.copied": "\u5df2\u590d\u5236", "search.config.lang": "ja", "search.config.pipeline": "trimmer, stemmer", "search.config.separator": "[\\uff0c\\u3002]+", "search.placeholder": "\u641c\u7d22", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.term.missing": "\u7f3a\u5c11", "select.version.title": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}, "search": "../../../assets/javascripts/workers/search.bd0b6b67.min.js"}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.8aa65030.min.js"></script>
+      
+        <script src="../../../javascripts/mathjax.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>
