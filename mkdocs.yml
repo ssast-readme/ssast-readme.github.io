@@ -23,6 +23,7 @@ nav:
     - 介绍: "tech/tech.md"
     - JS语法糖及语法坑: "tech/JavaScript语法糖及语法坑.md"
     - Manjaro系统入门: "tech/Intro-To-Manjaro/ManjaroIntro.md"
+    - 油猴脚本: "tech/monkey_script/MonkeyScript.md"
     - 其他: "tech/other.md"
 
 theme:
