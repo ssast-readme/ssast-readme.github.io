@@ -9,6 +9,8 @@ nav:
   - 课程笔记: 
     - 介绍: "note/note.md"
     - 操作系统复习提纲: "note/os/os.md"
+    - 人工智能导论:
+      - Learning(1): "note/AI-learning1/AI-learning1.md"
     - 其他: "note/other.md"
   - 作业攻略: 
     - 介绍: "homework/homework.md"
