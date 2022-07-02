@@ -13,7 +13,7 @@
     
     
       
-        <title>油猴脚本 - ReadMe 软件学院互助文档</title>
+        <title>Learning(1) - ReadMe 软件学院互助文档</title>
       
     
     
@@ -62,7 +62,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#_1" class="md-skip">
+        <a href="#learning1" class="md-skip">
           跳转至
         </a>
       
@@ -95,7 +95,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              油猴脚本
+              Learning(1)
             
           </span>
         </div>
@@ -171,13 +171,15 @@
         
   
   
+    
+  
 
 
   
   
   
     <li class="md-tabs__item">
-      <a href="../../../note/note/" class="md-tabs__link">
+      <a href="../../note/" class="md-tabs__link md-tabs__link--active">
         课程笔记
       </a>
     </li>
@@ -203,15 +205,13 @@
         
   
   
-    
-  
 
 
   
   
   
     <li class="md-tabs__item">
-      <a href="../../tech/" class="md-tabs__link md-tabs__link--active">
+      <a href="../../../tech/tech/" class="md-tabs__link">
         技术分享
       </a>
     </li>
@@ -346,12 +346,14 @@
 
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" checked>
       
       
       
@@ -374,7 +376,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../note/note/" class="md-nav__link">
+      <a href="../../note/" class="md-nav__link">
         介绍
       </a>
     </li>
@@ -388,7 +390,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../note/os/os/" class="md-nav__link">
+      <a href="../../os/os/" class="md-nav__link">
         操作系统复习提纲
       </a>
     </li>
@@ -400,14 +402,16 @@
               
   
   
+    
+  
   
     
       
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3" type="checkbox" id="__nav_2_3" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3" type="checkbox" id="__nav_2_3" checked>
       
       
       
@@ -428,11 +432,235 @@
               
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../../../note/AI-learning1/AI-learning1/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Learning(1)
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         Learning(1)
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#ml" class="md-nav__link">
+    ML框架
+  </a>
+  
+    <nav class="md-nav" aria-label="ML框架">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ml_1" class="md-nav__link">
+    ML本质
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#h-f-loss-function" class="md-nav__link">
+    衡量 \(h\) 与 \(f\) 的接近程度——Loss Function
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    经典分类
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ml_2" class="md-nav__link">
+    ML好坏的评判标准
+  </a>
+  
+    <nav class="md-nav" aria-label="ML好坏的评判标准">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    二分类任务：(预测)精度，查(正)全度，(全局)准度
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rocauc" class="md-nav__link">
+    分类：ROC和AUC
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    回归：误差
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    模型选择
+  </a>
+  
+    <nav class="md-nav" aria-label="模型选择">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#k" class="md-nav__link">
+    训练、测试、验证集合与k折交叉验证
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#knn" class="md-nav__link">
+    KNN
+  </a>
+  
+    <nav class="md-nav" aria-label="KNN">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    基本模型
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#k_1" class="md-nav__link">
+    K的选择
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    标准化
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#knn_1" class="md-nav__link">
+    KNN特性
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    线性回归
+  </a>
+  
+    <nav class="md-nav" aria-label="线性回归">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    模型结构
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    梯度，梯度下降与随机梯度下降
+  </a>
+  
+    <nav class="md-nav" aria-label="梯度，梯度下降与随机梯度下降">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    梯度
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    （随机）梯度下降
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    解决非线性：基函数映射
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_13" class="md-nav__link">
+    解决过拟合：正则项
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -451,7 +679,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../note/other/" class="md-nav__link">
+      <a href="../../other/" class="md-nav__link">
         其他
       </a>
     </li>
@@ -638,14 +866,12 @@
 
   
   
-    
-  
   
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
       
       
       
@@ -668,7 +894,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../tech/" class="md-nav__link">
+      <a href="../../../tech/tech/" class="md-nav__link">
         介绍
       </a>
     </li>
@@ -682,7 +908,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../JavaScript%E8%AF%AD%E6%B3%95%E7%B3%96%E5%8F%8A%E8%AF%AD%E6%B3%95%E5%9D%91/" class="md-nav__link">
+      <a href="../../../tech/JavaScript%E8%AF%AD%E6%B3%95%E7%B3%96%E5%8F%8A%E8%AF%AD%E6%B3%95%E5%9D%91/" class="md-nav__link">
         JS语法糖及语法坑
       </a>
     </li>
@@ -696,7 +922,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Intro-To-Manjaro/ManjaroIntro/" class="md-nav__link">
+      <a href="../../../tech/Intro-To-Manjaro/ManjaroIntro/" class="md-nav__link">
         Manjaro系统入门
       </a>
     </li>
@@ -708,93 +934,11 @@
               
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          油猴脚本
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../../tech/monkey_script/MonkeyScript/" class="md-nav__link">
         油猴脚本
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="目录">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      目录
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
-    安装用户脚本管理器
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
-    下载并安装热门的用户脚本
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_4" class="md-nav__link">
-    编写自定义用户脚本
-  </a>
-  
-    <nav class="md-nav" aria-label="编写自定义用户脚本">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#pdf" class="md-nav__link">
-    一键获取论文PDF
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#_5" class="md-nav__link">
-    雨课堂答题提醒
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_6" class="md-nav__link">
-    参考链接
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -806,7 +950,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../other/" class="md-nav__link">
+      <a href="../../../tech/other/" class="md-nav__link">
         其他
       </a>
     </li>
@@ -847,37 +991,30 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
-    安装用户脚本管理器
+  <a href="#ml" class="md-nav__link">
+    ML框架
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
-    下载并安装热门的用户脚本
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_4" class="md-nav__link">
-    编写自定义用户脚本
-  </a>
-  
-    <nav class="md-nav" aria-label="编写自定义用户脚本">
+    <nav class="md-nav" aria-label="ML框架">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#pdf" class="md-nav__link">
-    一键获取论文PDF
+  <a href="#ml_1" class="md-nav__link">
+    ML本质
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#_5" class="md-nav__link">
-    雨课堂答题提醒
+  <a href="#h-f-loss-function" class="md-nav__link">
+    衡量 \(h\) 与 \(f\) 的接近程度——Loss Function
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    经典分类
   </a>
   
 </li>
@@ -888,9 +1025,158 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_6" class="md-nav__link">
-    参考链接
+  <a href="#ml_2" class="md-nav__link">
+    ML好坏的评判标准
   </a>
+  
+    <nav class="md-nav" aria-label="ML好坏的评判标准">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    二分类任务：(预测)精度，查(正)全度，(全局)准度
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rocauc" class="md-nav__link">
+    分类：ROC和AUC
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    回归：误差
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    模型选择
+  </a>
+  
+    <nav class="md-nav" aria-label="模型选择">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#k" class="md-nav__link">
+    训练、测试、验证集合与k折交叉验证
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#knn" class="md-nav__link">
+    KNN
+  </a>
+  
+    <nav class="md-nav" aria-label="KNN">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    基本模型
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#k_1" class="md-nav__link">
+    K的选择
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    标准化
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#knn_1" class="md-nav__link">
+    KNN特性
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    线性回归
+  </a>
+  
+    <nav class="md-nav" aria-label="线性回归">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    模型结构
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    梯度，梯度下降与随机梯度下降
+  </a>
+  
+    <nav class="md-nav" aria-label="梯度，梯度下降与随机梯度下降">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    梯度
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    （随机）梯度下降
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    解决非线性：基函数映射
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_13" class="md-nav__link">
+    解决过拟合：正则项
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -908,132 +1194,249 @@
                 
 
 
-<h1 id="_1">油猴脚本</h1>
-<p>油猴脚本是一个浏览器上的用户脚本管理器，它允许你通过JavaScript代码自定义你的浏览器使用体验。本篇文章将向您分享油猴脚本的使用方法，包括：</p>
-<ul>
-<li>安装用户脚本管理器</li>
-<li>下载并安装热门的用户脚本</li>
-<li>编写自定义用户脚本：一键获取论文PDF，雨课堂答题提醒。</li>
+<h1 id="learning1">人工智能导论——Learning1</h1>
+<blockquote>
+<p>作者：Kirino</p>
+</blockquote>
+<h2 id="ml">ML框架</h2>
+<h3 id="ml_1">ML本质</h3>
+<ol>
+<li>定义输入的特征向量<span class="arithmatex">\(\vec{x}\in R^d\)</span></li>
+<li>定义输出<span class="arithmatex">\(y\)</span></li>
+<li>客观存在一个<span class="arithmatex">\(\vec{x}\mapsto y\)</span>的函数<span class="arithmatex">\(f\)</span>作为ground truth</li>
+<li><strong>定义一个从<span class="arithmatex">\(\vec{x}\mapsto y\)</span>的函数集合<span class="arithmatex">\(\mathcal{H}\)</span>作为假设空间，通常满足正则性</strong><ul>
+<li>连续性</li>
+<li>光滑性</li>
+<li>简单性</li>
 </ul>
-<h3 id="_2">安装用户脚本管理器</h3>
-<p>打开浏览器的扩展商店，搜索<code>Tampermonkey</code>，或者复制链接
-<a href="https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo">https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo</a>
-到浏览器。如下图，点击<code>添加至Chrome</code>按钮，即可下载并安装用户脚本管理器。
-<img alt="" src="/tech/monkey_script/img/tampermonkey-download.png" /></p>
-<p>安装完成后，地址栏右侧会出现灰色的Tampermonkey图标。</p>
-<p><img alt="" src="/tech/monkey_script/img/tampermonkey-installed.png" /></p>
-<h3 id="_3">下载并安装热门的用户脚本</h3>
-<p>以<a href="https://greasyfork.org/zh-CN/scripts/412245-github-%E5%A2%9E%E5%BC%BA-%E9%AB%98%E9%80%9F%E4%B8%8B%E8%BD%BD">Github网络增强脚本</a>为例，这个脚本可以提升下载releases中文件的速度。</p>
-<p><img alt="" src="/tech/monkey_script/img/greasyfork-github.png" /></p>
-<p>安装完成后再打开Github，可以发现Releases多出了选择下载服务器。</p>
+</li>
+<li><strong>定义一个搜索算法<span class="arithmatex">\(\mathcal{A}\)</span></strong></li>
+<li><strong>定义一个损失函数<span class="arithmatex">\(l\)</span>以衡量<span class="arithmatex">\(f\)</span>与<span class="arithmatex">\(h\)</span>的接近程度</strong></li>
+<li>在给定一些观测<span class="arithmatex">\((\vec{x}_1,y_1),...,(\vec{x}_n,y_n)\)</span>的基础上，使用搜索算法<span class="arithmatex">\(\mathcal{A}\)</span>在假设空间<span class="arithmatex">\(\mathcal{H}\)</span>中搜索出一个<span class="arithmatex">\(h\)</span>，使得<span class="arithmatex">\(h\)</span>与<span class="arithmatex">\(f\)</span>尽量接近。本质上就是搜索问题（从cs视角）/估计问题（从统计视角）（这样理解，可以容易地给出一个极大似然估计）</li>
+</ol>
+<h3 id="h-f-loss-function">衡量 <span class="arithmatex">\(h\)</span> 与 <span class="arithmatex">\(f\)</span> 的接近程度——Loss Function</h3>
+<p>损失函数<span class="arithmatex">\(l\)</span>定义为一个从<span class="arithmatex">\(y\times y\mapsto R_+\)</span>的函数，可以理解为<span class="arithmatex">\(y_{label}\times \hat y\mapsto R_+\)</span>.</p>
+<p>因此，ML的问题可形式化为，搜索一组<span class="arithmatex">\(h(\vec{x})\)</span>的参数，使得<span class="arithmatex">\(l(h(\vec{x}, y))\)</span>的值尽量小.</p>
+<p>以<span class="arithmatex">\(\hat\epsilon\)</span>表示参数的预测值，则可以表示为,</p>
+<div class="arithmatex">\[
+\hat{\epsilon} = \min\limits_\theta(\frac{1}{m})\sum_{i = 1}^m l(h_\theta(\vec{x}_i), y_i)
+\]</div>
+<p>其中 <span class="arithmatex">\(m\)</span> 为样本数。</p>
+<h3 id="_1">经典分类</h3>
+<p><img src="../img/note1-1.png" alt="截屏2022-05-03 上午9.49.05" style="zoom:50%;" /></p>
+<h2 id="ml_2">ML好坏的评判标准</h2>
+<p>如何评价一个ML完成的好坏？核心思想是应当关注哪些任务做对了，哪些任务做错了，对于不同类型的ML，会有更加细化的评价指标。</p>
+<h3 id="_2">二分类任务：(预测)精度，查(正)全度，(全局)准度</h3>
+<p>对于二分类，重点关注/预测的是人为定义的<strong>正例</strong>。</p>
+<ul>
+<li>正确的结果<ul>
+<li>正例输入的预测为正例（<strong>T</strong>rue <strong>P</strong>ositive）</li>
+<li>负例输入的预测为负例（<strong>T</strong>rue <strong>N</strong>egative)</li>
+</ul>
+</li>
+<li>错误的结果<ul>
+<li>正例输入的预测为负例（<strong>F</strong>alse <strong>N</strong>egative, 第二类错误）</li>
+<li>负例输入的预测为正例（<strong>F</strong>alse <strong>P</strong>ositive, 第一类错误）</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>回忆，参数估计/假设检验的目标是最小化第一类错误。</p>
+</blockquote>
+<p>对于二分类，可以定义</p>
+<ul>
+<li>（预测）精度<span class="arithmatex">\(P\)</span>：预测为正例的精确度<span class="arithmatex">\(\frac{TP}{TP+FP}\)</span>. 严重影响用户体验。</li>
+<li>查（正）全度<span class="arithmatex">\(R\)</span>：有多少正例被找出来了<span class="arithmatex">\(\frac{TP}{TP+FN}\)</span>，侧面反映功效。</li>
+<li>（全局）准度<span class="arithmatex">\(Acc\)</span>：有多少做对的。<span class="arithmatex">\(\frac{TP+TN}{TP+TN+FN+FP}\)</span></li>
+<li><span class="arithmatex">\(Error = 1 - Acc\)</span></li>
+</ul>
+<p>对于多分类，站在每一类的角度，只有一种“正确”的情况，即本类输入被预测为本类。但是同样有两种错误：本类被预测为他类，他类被预测为本类。对于每一类，我们也可以类似定义查全度、预测精度。通过全局可以定义准度。</p>
+<blockquote>
+<p>通过上面的方法可以定义多分类问题的混淆矩阵，以真实Label为行，预测Label为列</p>
+</blockquote>
+<p><strong>综合评价</strong>：使用<span class="arithmatex">\(F_1\)</span> score 综合 <span class="arithmatex">\(P\)</span> 与 <span class="arithmatex">\(R\)</span>.
+$$
+\frac{1}{F_1} = \frac{1}{2}(\frac{1}{P}+\frac{1}{R})
+$$</p>
+<h3 id="rocauc">分类：ROC和AUC</h3>
+<ul>
+<li><strong>接受者操作特征曲线ROC</strong></li>
+</ul>
+<p>为何要定义ROC，是为了找到一种衡量查全率与假阳率的方法。而且在数据极端不平衡时也应当有效。</p>
+<p>类似查（正）全度，我们可以定义一个查（负）全度，即有多少负例是被找出来的，计作<span class="arithmatex">\(Recall_-=\frac{TN}{TN+FP}\)</span>。则负例的差不全度，就为<span class="arithmatex">\(FPR = \frac{FP}{TN+FP}\)</span>。代表了有多少负例被预测成了正例，也就是第一类错误所占比例（假阳性率）。</p>
+<p>同时注意到<span class="arithmatex">\(TPR = \frac{TP}{TP+FN}\)</span>与<span class="arithmatex">\(FPR\)</span>有一个相互制约的关系，所以我们把他们绘制在同一个坐标平面上观察。</p>
+<p>由于分类问题输出的是一个概率，因此取不同的判断为正例的概率阈值，就可以得到一个<span class="arithmatex">\((FPR, TPR)\)</span>点。变化这个阈值，就可以得到一条曲线，称为ROC曲线。当取阈值为<span class="arithmatex">\(1\)</span>时，所有点都被预测为负例，查全度为<span class="arithmatex">\(0\)</span>，假阳性率为<span class="arithmatex">\(0\)</span>，而当阈值为0时，所有点都被预测为正例，查全度为<span class="arithmatex">\(1\)</span>，假阳性率为<span class="arithmatex">\(1\)</span>。</p>
+<ul>
+<li><strong>曲线下面积AUC</strong></li>
+</ul>
+<p><img src="../img/note1-2.png" alt="截屏2022-05-03 上午10.58.01" style="zoom:50%;" /></p>
+<p>显然，一个随机分类的过对角线，理由如下</p>
+<div class="arithmatex">\[
+\begin{aligned}
+  &amp;TPR = P(\hat Y = 1|Y = 1)\\
+  &amp;FPR = P(\hat Y = 1|Y = 0)\\
+  &amp;\text{随机分类，有}\ P(\hat Y = 1|Y = 1) = P(\hat Y = 1|Y = 0)\\
+  &amp;\text{即}\ TPR =FPR
+\end{aligned}
+\]</div>
+<p>而曲线下方的面积就代表了任给一个正负例输入对<span class="arithmatex">\((x_+,x_-)\)</span>，经过预测/分类<span class="arithmatex">\(f\)</span>后得到的得分（分类概率）<span class="arithmatex">\((y_+, y_-)\)</span>中<span class="arithmatex">\(y_+&gt;y_-\)</span>的概率。因此，面积越大越好。</p>
+<h3 id="_3">回归：误差</h3>
+<p>Error其实是最直观的评价标准，因此有时候Error也会被作为Loss来最小化（特别是可导的时候）。几种常见的Error</p>
 <table>
 <thead>
 <tr>
-<th></th>
-<th></th>
+<th>类型</th>
+<th>计算式</th>
+<th>特点</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>BEFORE</td>
-<td><img alt="" src="/tech/monkey_script/img/github-release-before.png" /></td>
+<td>平方误差</td>
+<td><span class="arithmatex">\((y_i-\hat y_i)^2\)</span></td>
+<td>离群值敏感</td>
 </tr>
 <tr>
-<td>AFTER</td>
-<td><img alt="" src="/tech/monkey_script/img/github-release-after.png" /></td>
+<td>绝对误差</td>
+<td>$</td>
+<td>y_i-\hat y_i</td>
+</tr>
+<tr>
+<td>对数平方误差</td>
+<td><span class="arithmatex">\((\log (1 +y_i)-\log(1+\hat y_i))^2\)</span></td>
+<td>如果当目标指数增长时有用</td>
+</tr>
+<tr>
+<td>相对误差</td>
+<td>$</td>
+<td>\frac{y_i-\hat y_i}{y_i}</td>
 </tr>
 </tbody>
 </table>
-<p>可以在<a href="https://greasyfork.org/zh-CN">Greasy Fork</a>或是<a href="https://gist.github.com/search?l=JavaScript&amp;o=desc&amp;q=&quot;%3D%3DUserScript%3D%3D&quot;&amp;s=updated">Github</a>上下载并安装更多热门的用户脚本，例如<a href="https://greasyfork.org/zh-CN/scripts/418804-解锁b站大会员番剧-b站视频解析下载-全网vip视频免费破解去广告-全网音乐直接下载-油管-facebook等国外视频解析下载-网盘搜索引擎破解无限下载等">各大网站音乐、视频下载</a>，<a href="https://greasyfork.org/zh-CN/scripts/7687-moremovieratings">豆瓣和IMDb互相显示评分</a>等。</p>
-<p><img alt="" src="/tech/monkey_script/img/greasyfork-search.png" /></p>
-<h3 id="_4">编写自定义用户脚本</h3>
-<p>除去安装他人完成的脚本外，还可以编写自定义用户脚本。点击地址栏右侧的Tampermonkey扩展图片，在下拉菜单中选择<code>管理面板</code>。</p>
-<p><img alt="" src="/tech/monkey_script/img/tampermonkey-panel.png" /></p>
-<p>在打开的页面中点击加号按钮，可以创建新的用户脚本。</p>
-<p><img alt="" src="/tech/monkey_script/img/tampermonkey-newscript.png" /></p>
-<p>新的用户脚本包含以下JavaScript代码：</p>
-<pre><code class="language-javascript">// ==UserScript==
-// @name         New Userscript
-// @namespace    http://tampermonkey.net/
-// @version      0.1
-// @description  try to take over the world!
-// @author       You
-// @match        https://*
-// @icon         https://www.google.com/s2/favicons?sz=64&amp;domain=google.com.hk
-// @grant        none
-// ==/UserScript==
-
-(function() {
-    'use strict';
-
-    // Your code here...
-})();
-</code></pre>
-<p>这样就创建了一个自定义的用户脚本。</p>
-<h4 id="pdf">一键获取论文PDF</h4>
-<p>复制以下代码，替换掉原有代码，并保存：</p>
-<pre><code class="language-javascript">// ==UserScript==
-// @name         Download Paper PDF
-// @match        https://dl.acm.org/*
-// @match        https://www.sciencedirect.com/*
-// @match        https://ieeexplore.ieee.org/*
-// @run-at       document-idle
-// ==/UserScript==
-
-(function() {
-    'use strict';
-
-    var scihub_base_url = 'https://sci-hub.ru/'
-    var doi_url;
-    var doi_node;
-    var linkList = document.getElementsByTagName('a'); // all links in the page
-    for(var link of linkList)
-        if(link.href.startsWith('https://doi.org')) {
-            link.href = scihub_base_url + link.href;
-            link.style.background = 'yellow'; // change link's background color to yellow
-        }
-})();
-</code></pre>
-<p>其中：</p>
+<p>对于每个样本的误差取中位数/均值（离群值敏感）可以得到模型的误差。</p>
+<h2 id="_4">模型选择</h2>
+<h3 id="k">训练、测试、验证集合与k折交叉验证</h3>
+<p>测试集在训练时是永远不应该碰的。验证集是我们从测试集中拆出来的一部分，并且为了节省数据，采用K折交叉验证的方法，最后取最好的。</p>
+<p><img src="../img/note1-3.png" alt="截屏2022-05-03 上午11.49.54" style="zoom:50%;" /></p>
+<h2 id="knn">KNN</h2>
+<h3 id="_5">基本模型</h3>
 <ul>
-<li><code>@match REGEX_URL</code>表示这个脚本在网址与正则表达式<code>REGEX_URL</code>匹配时加载。可以使用多个<code>@match</code>指定脚本在多个网站上运行。</li>
-<li><code>@run-at document-idle</code>指定了脚本的运行时机，<code>document-idle</code>意味着脚本将在<code>DOMContentLoaded</code>事件触发后开始执行。在大部分情形下直接用<code>@run-at document-idle</code>就可以了。</li>
-<li>JavaScript部分的代码：在页面上寻找所有以<code>https://doi.org</code>开头的链接，将地址改为Sci-Hub上对应DOI的检索结果，并用黄色背景强调</li>
-<li><code>document.getElementsByTagName('a')</code>：获取网页中的所有链接</li>
-<li><code>link.href = newURLString</code>，其中<code>link</code>是一个链接元素：改变点击链接元素跳转到的地址</li>
-<li><code>link.style.background = 'yellow'</code>：将<code>link</code>元素的背景改成黄色</li>
+<li>
+<p>训练：只需要记住每一个input即可（惰性算法）。</p>
+</li>
+<li>
+<p>预测：对于每一个预测输入，找其最近的K个点，投票产生它的Label。</p>
+</li>
+<li>
+<p>超参数：<span class="arithmatex">\(K\)</span></p>
+</li>
+<li>没有需要学习的参数，因此是一种非参数方法</li>
 </ul>
-<p>其效果如下：</p>
-<p><img alt="" src="/tech/monkey_script/img/paper-pdf-demo.gif" /></p>
-<h4 id="_5">雨课堂答题提醒</h4>
-<p>以下代码可以在雨课堂网页上推送新的题目时，响铃提醒。</p>
-<pre><code class="language-javascript">// ==UserScript==
-// @name         雨课堂答题提醒
-// @match        https://*.yuketang.cn/lesson/*
-// @run-at       document-idle
-// ==/UserScript==
-
-(function() {
-    'use strict';
-
-    var audio = new Audio('https://upload.wikimedia.org/wikipedia/commons/3/34/Sound_Effect_-_Door_Bell.ogg');
-    var lastProblemCount = -1;
-    setInterval(function () {
-        var problemCount = document.getElementsByClassName('problem').length;
-        console.log(problemCount, lastProblemCount);
-        if (lastProblemCount != -1 &amp;&amp; lastProblemCount != problemCount){ // new problem!
-            audio.play()
-        }
-        lastProblemCount = problemCount;
-    }, 3000);
-})();
-</code></pre>
-<p>读者可以查阅<a href="https://developer.mozilla.org/zh-CN/docs/Web/API">文档</a>了解<code>Audio</code>，<code>setInterval</code>，<code>Document.getElementsByClassName</code>，并对代码做出自己的修改。</p>
-<h3 id="_6">参考链接</h3>
-<blockquote>
-<p>https://www.tampermonkey.net/documentation.php?ext=dhdg&amp;locale=zh
-https://developer.mozilla.org/zh-CN/docs/Web/API</p>
-</blockquote>
+<p>需要计算距离。</p>
+<h3 id="k_1">K的选择</h3>
+<p>如果K过小，容易过拟合，K过大，欠拟合。一般取3，5，7，9，11较合适。</p>
+<p>注意KNN虽然是惰性算法，但也是有<code>Train error</code>的，训练数据所在位置如果被打上了其他label，就是训练误差。</p>
+<h3 id="_6">标准化</h3>
+<p>由于需要计算距离，因此会受到特征尺度的影响，最理想的情况应当是所有点都位于一个<span class="arithmatex">\([-1,1]^d\)</span>的超立方体中。因此，需要对每个特征做标准化。非常简单，减均值处方差即可。</p>
+<div class="arithmatex">\[
+x_{ij}'=\frac{x_{ij}-\mu_j}{\sigma_j}
+\]</div>
+<h3 id="knn_1">KNN特性</h3>
+<ul>
+<li>适用范围<ul>
+<li>特征维度较小，如果多了需要降维</li>
+<li>大量训练数据。非参数模型在数据量增加时容量也会增加</li>
+</ul>
+</li>
+<li>优势<ul>
+<li>不可知地学习复杂的目标函数</li>
+<li>不损失信息</li>
+<li>数据量和分类数都可以非常大！而其他ML算法此时都很可能失效</li>
+</ul>
+</li>
+<li>劣势<ul>
+<li>预测很慢（数据结构加速）</li>
+<li>输入噪声敏感</li>
+</ul>
+</li>
+</ul>
+<h2 id="_7">线性回归</h2>
+<h3 id="_8">模型结构</h3>
+<ul>
+<li>特征向量<span class="arithmatex">\(\vec{x}\in R^d\)</span>, 输出<span class="arithmatex">\(y\in R\)</span><ul>
+<li>训练数据<span class="arithmatex">\((x_1,y_1),(x_2,y_2),...,(x_n,y_n)\)</span></li>
+</ul>
+</li>
+<li>为了表示截距，在特征向量中加入一维</li>
+</ul>
+<p><img src="../img/note1-4.png" alt="截屏2022-05-03 下午10.01.16" style="zoom:50%;" /></p>
+<ul>
+<li>备选函数<span class="arithmatex">\(h\)</span>满足以下形式</li>
+</ul>
+<div class="arithmatex">\[
+h(\vec{x}) = w_0 + \sum_{j = 1}^dw_jx_j = \sum_{j = 0}^dw_jx_j = \vec{w}^T\vec{x}
+\]</div>
+<ul>
+<li>损失函数：常用L2损失，以下为训练误差</li>
+</ul>
+<div class="arithmatex">\[
+\hat \epsilon (h) = \sum_{i = 1}^n(h(\vec{x}_i)-y_i)^2
+\]</div>
+<ul>
+<li>回归算法</li>
+<li>先从数据集中提取特征向量</li>
+<li>写出线性模型<span class="arithmatex">\(h(\vec{x}) = \vec w^T\vec x\)</span></li>
+<li>求解<span class="arithmatex">\(\min\limits_w\sum_{i = 1}^n(h_w(\vec x_i)-y_i)^2\)</span></li>
+</ul>
+<h3 id="_9">梯度，梯度下降与随机梯度下降</h3>
+<h4 id="_10">梯度</h4>
+<p>对于函数<span class="arithmatex">\(l(\vec x)\)</span>，我们可以求出其在<span class="arithmatex">\((x_1,x_2,...,x_d)\)</span>点处的梯度，如下</p>
+<div class="arithmatex">\[
+\vec g = (\frac{\partial l(\vec x)}{\partial x_1},\frac{\partial l(\vec x)}{\partial x_2},...,\frac{\partial l(\vec x)}{\partial x_d}) = (\frac{\partial}{\partial x_1},...,\frac{\partial}{\partial x_d})l(\vec x) = \nabla_\vec{x}l(\vec x)
+\]</div>
+<p>在 <span class="arithmatex">\(\vec x_0\)</span> 处泰勒展开得到</p>
+<div class="arithmatex">\[
+l(\vec x) = l(\vec x_0) + \vec g^T(\vec x - \vec x_0)+...
+\]</div>
+<p>因此，沿着梯度下降的方向走一小步<span class="arithmatex">\(\eta\)</span>后，loss变为下式，变小了</p>
+<div class="arithmatex">\[
+l(\vec x - \eta\vec g) \approx l(\vec x)-\vec g^T\eta\vec g
+\]</div>
+<h4 id="_11">（随机）梯度下降</h4>
+<p>根据上述启发，每次更新参数都沿梯度下降的方向走一步<span class="arithmatex">\(\eta\)</span>，即</p>
+<div class="arithmatex">\[
+\vec w^{t+1}\leftarrow w^t - \eta\nabla_\vec w\hat\epsilon(\vec w)
+\]</div>
+<p>对于线性回归的L2 loss <span class="arithmatex">\(\hat \epsilon (h) = \sum_{i = 1}^n(h(\vec{x}_i)-y_i)^2\)</span>，我们推导一下他的梯度</p>
+<div class="arithmatex">\[
+\begin{aligned}
+&amp;\hat\epsilon(\vec w) = \sum_{i = 1}^n(h(\vec x_i)-y_i)^2 = \sum_{i = 1}^n(\vec w^T\vec x_i-y_i)^2 \\
+&amp;= (\vec w^T\vec x_1 - y_1,...,\vec w^T\vec x_n - y_n)^T(\vec w^T\vec x_1 - y_1,...,\vec w^T\vec x_n - y_n)\\
+&amp;=((\vec x_1,...,\vec x_n)^T\vec w-\vec y)^T((\vec x_1,...,\vec x_n)^T\vec w-\vec y)\\
+&amp;=(X\vec w-\vec y)^T(X\vec w - \vec y)
+\end{aligned}
+\]</div>
+<div class="arithmatex">\[
+\nabla_\vec w\hat \epsilon (\vec w) = 2X^T(X\vec w - \vec y)
+\]</div>
+<p>故更新 <span class="arithmatex">\(\vec w^{t+1}\leftarrow \vec w^t-2\eta X^T(X\vec w^t - \vec y)\)</span>，但是由于复杂度太高，我们可以只挑几个样本来计算梯度，例如m个，之后相加求一个平均。</p>
+<h3 id="_12">解决非线性：基函数映射</h3>
+<p>对特征向量 <span class="arithmatex">\(\vec x = (x_1, ..., x_d)\)</span> 进行逐元素映射，得到新的特征向量</p>
+<div class="arithmatex">\[
+\vec x = (x_1,...,x_d)\mathop\mapsto\limits^\Phi \vec z=(z_1,...,z_{\tilde d})
+\]</div>
+<p>其中的 <span class="arithmatex">\(z_j = \phi_j(\vec x)\)</span>，是某一个非线性的变换算子。注意到，<span class="arithmatex">\(\phi_j\)</span>是定义在<span class="arithmatex">\(\vec x\)</span>上的函数。</p>
+<h3 id="_13">解决过拟合：正则项</h3>
+<p>过拟合时常常会出现参数爆炸的情况，因此防止过拟合的一种方法就是控制参数向量<span class="arithmatex">\(\vec w\)</span>的范数。因此在进行最优化求解时，加上一项正则项，得到下式</p>
+<div class="arithmatex">\[
+\begin{aligned}
+&amp;L2:\ \hat w =\arg \min\limits_{\vec w\in R^d}\sum_{i = 0}^n(\vec w^T\vec x_i-y_i)^2+\lambda||\vec w||^2_2\\
+&amp;\Leftrightarrow \arg \min\limits_{||\vec w||_2^2\leq r}\sum_{i = 0}^n(\vec w^T\vec x_i-y_i)^2, \exists r&gt;0\\
+&amp;L1:\ \hat w =\arg \min\limits_{\vec w\in R^d}\sum_{i = 0}^n(\vec w^T\vec x_i-y_i)^2+\lambda||\vec w||_1\\
+&amp;\Leftrightarrow \arg \min\limits_{||\vec w||_1\leq r}\sum_{i = 0}^n(\vec w^T\vec x_i-y_i)^2, \exists r&gt;0
+\end{aligned}
+\]</div>
+<p>L2范数的可行域是一个convex的曲线，得到的切点很有可能位于第一象限内，而L1范数的可行域是一条直线，容易在坐标轴上取到解，因此是稀疏的。</p>
 
               
             </article>
@@ -1052,7 +1455,7 @@ https://developer.mozilla.org/zh-CN/docs/Web/API</p>
     <nav class="md-footer__inner md-grid" aria-label="页脚">
       
         
-        <a href="../../Intro-To-Manjaro/ManjaroIntro/" class="md-footer__link md-footer__link--prev" aria-label="上一页: Manjaro系统入门" rel="prev">
+        <a href="../../os/os/" class="md-footer__link md-footer__link--prev" aria-label="上一页: 操作系统复习提纲" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
           </div>
@@ -1061,7 +1464,7 @@ https://developer.mozilla.org/zh-CN/docs/Web/API</p>
               <span class="md-footer__direction">
                 上一页
               </span>
-              Manjaro系统入门
+              操作系统复习提纲
             </div>
           </div>
         </a>
