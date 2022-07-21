@@ -29,6 +29,8 @@ nav:
     - 2022年暑培资料:
       - 前端基础: "tech/2022Summer/frontend-base.md"
       - Vue.js: "tech/2022Summer/Vue/vue.md"
+      - Node.js: "tech/2022Summer/Nodejs/Nodejs.md"
+      - Flask: "tech/2022Summer/flask.md"
     - 其他: "tech/other.md"
 
 theme:
