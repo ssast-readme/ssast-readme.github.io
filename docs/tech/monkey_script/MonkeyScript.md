@@ -32,7 +32,7 @@
 
 可以在[Greasy Fork](https://greasyfork.org/zh-CN)或是[Github](https://gist.github.com/search?l=JavaScript&o=desc&q="%3D%3DUserScript%3D%3D"&s=updated)上下载并安装更多热门的用户脚本，例如[各大网站音乐、视频下载](https://greasyfork.org/zh-CN/scripts/418804-解锁b站大会员番剧-b站视频解析下载-全网vip视频免费破解去广告-全网音乐直接下载-油管-facebook等国外视频解析下载-网盘搜索引擎破解无限下载等)，[豆瓣和IMDb互相显示评分](https://greasyfork.org/zh-CN/scripts/7687-moremovieratings)等。
 
-![](/tech/monkey_script/img/greasyfork-search.png)
+![](img/greasyfork-search.png)
 
 ### 编写自定义用户脚本
 
