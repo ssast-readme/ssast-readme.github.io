@@ -11,6 +11,7 @@ nav:
     - 操作系统复习提纲: "note/os/os.md"
     - 人工智能导论:
       - Learning(1): "note/AI-learning1/AI-learning1.md"
+    - 复变函数引论: "note/complex-function/readme.md"
     - 其他: "note/other.md"
   - 作业攻略: 
     - 介绍: "homework/homework.md"
@@ -27,12 +28,16 @@ nav:
     - Manjaro系统入门: "tech/Intro-To-Manjaro/ManjaroIntro.md"
     - 油猴脚本: "tech/monkey_script/MonkeyScript.md"
     - 连接Tsinghua-Secure: "tech/Tsinghua-Secure/tsinghua-secure.md"
+    - 在软工项目中使用SSL证书: "tech/using-SSL-in-SE/content.md"
     - 2022年暑培资料:
       - 前端基础: "tech/2022Summer/frontend-base.md"
       - Vue.js: "tech/2022Summer/Vue/vue.md"
       - Node.js: "tech/2022Summer/Nodejs/Nodejs.md"
       - Flask: "tech/2022Summer/flask.md"
     - 其他: "tech/other.md"
+  - 科创经验分享:
+    - 星火计划: 
+      - 经验分享: "innovation/star/share.md"
 
 theme:
   name: material

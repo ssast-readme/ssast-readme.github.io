@@ -1,0 +1,1372 @@
+
+<!doctype html>
+<html lang="zh" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-8.2.1">
+    
+    
+      
+        <title>连接Tsinghua-Secure - ReadMe 软件学院互助文档</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.e8d9bf0c.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.e6a45f82.min.css">
+        
+          
+          
+          <meta name="theme-color" content="#009485">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="teal" data-md-color-accent="">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#tsinghua-secure" class="md-skip">
+          跳转至
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="页眉">
+    <a href="../../.." title="ReadMe 软件学院互助文档" class="md-header__button md-logo" aria-label="ReadMe 软件学院互助文档" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 9h5.5L13 3.5V9M6 2h8l6 6v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4c0-1.11.89-2 2-2m9 16v-2H6v2h9m3-4v-2H6v2h12z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            ReadMe 软件学院互助文档
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              连接Tsinghua-Secure
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="搜索" placeholder="搜索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="查找">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="清空当前内容" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            正在初始化搜索引擎
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="标签" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../.." class="md-tabs__link">
+        首页
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../note/note/" class="md-tabs__link">
+        课程笔记
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../homework/homework/" class="md-tabs__link">
+        作业攻略
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../tech/" class="md-tabs__link md-tabs__link--active">
+        技术分享
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="导航栏" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="ReadMe 软件学院互助文档" class="md-nav__button md-logo" aria-label="ReadMe 软件学院互助文档" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 9h5.5L13 3.5V9M6 2h8l6 6v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4c0-1.11.89-2 2-2m9 16v-2H6v2h9m3-4v-2H6v2h12z"/></svg>
+
+    </a>
+    ReadMe 软件学院互助文档
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1" type="checkbox" id="__nav_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_1">
+          首页
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="首页" data-md-level="1">
+        <label class="md-nav__title" for="__nav_1">
+          <span class="md-nav__icon md-icon"></span>
+          首页
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        欢迎
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ToAuthor/" class="md-nav__link">
+        致作者
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ToReader/" class="md-nav__link">
+        致读者
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ReadMe%E5%BF%97%E6%84%BF%E5%B7%A5%E6%97%B6%E5%8F%91%E6%94%BE%E6%A0%87%E5%87%86/" class="md-nav__link">
+        志愿工时发放标准
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2">
+          课程笔记
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="课程笔记" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          课程笔记
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../note/note/" class="md-nav__link">
+        介绍
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../note/os/os/" class="md-nav__link">
+        操作系统复习提纲
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3" type="checkbox" id="__nav_2_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_3">
+          人工智能导论
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="人工智能导论" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_3">
+          <span class="md-nav__icon md-icon"></span>
+          人工智能导论
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../note/AI-learning1/AI-learning1/" class="md-nav__link">
+        Learning(1)
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../note/other/" class="md-nav__link">
+        其他
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          作业攻略
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="作业攻略" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          作业攻略
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../homework/homework/" class="md-nav__link">
+        介绍
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_2" type="checkbox" id="__nav_3_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_2">
+          数据结构OJ较难作业解析
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="数据结构OJ较难作业解析" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_2">
+          <span class="md-nav__icon md-icon"></span>
+          数据结构OJ较难作业解析
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../homework/dsa-OJ/" class="md-nav__link">
+        By 作者
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../homework/dsa-OJ/OJ1/OJ1-3/" class="md-nav__link">
+        OJ1-3_灯塔_归并排序
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../homework/dsa-OJ/OJ2/OJ2-3/" class="md-nav__link">
+        OJ2-3_游戏_括号匹配
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../homework/dsa-OJ/OJ3/OJ3-2/" class="md-nav__link">
+        OJ3-2_旅行商_拓扑排序
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../homework/dsa-OJ/OJ3/OJ3-3/" class="md-nav__link">
+        OJ3-3_气象台_KD树
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../homework/other/" class="md-nav__link">
+        其他
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4">
+          技术分享
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="技术分享" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          技术分享
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tech/" class="md-nav__link">
+        介绍
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../JavaScript%E8%AF%AD%E6%B3%95%E7%B3%96%E5%8F%8A%E8%AF%AD%E6%B3%95%E5%9D%91/" class="md-nav__link">
+        JS语法糖及语法坑
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Intro-To-Manjaro/ManjaroIntro/" class="md-nav__link">
+        Manjaro系统入门
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../monkey_script/MonkeyScript/" class="md-nav__link">
+        油猴脚本
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          连接Tsinghua-Secure
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        连接Tsinghua-Secure
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#8021" class="md-nav__link">
+    一、注册802.1密码
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    二、配置用户端设备
+  </a>
+  
+    <nav class="md-nav" aria-label="二、配置用户端设备">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-windows10-8021x" class="md-nav__link">
+    2.1 Windows10 系统下配置 802.1x 的方法
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-windows-7-8021x" class="md-nav__link">
+    2.2 Windows 7 系统下的配置 802.1x 的方法
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23-android-8021x" class="md-nav__link">
+    2.3 Android 系统下的配置 802.1x 的方法
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#24-iphoneipad-8021x" class="md-nav__link">
+    2.4 iPhone、iPad 下的配置 802.1x 的方法
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#25-macos-8021x" class="md-nav__link">
+    2.5 macOS 下的配置 802.1x 的方法
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#26-linux-8021x" class="md-nav__link">
+    2.6 Linux 系统下配置 802.1x 的配置方法
+  </a>
+  
+    <nav class="md-nav" aria-label="2.6 Linux 系统下配置 802.1x 的配置方法">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-centos-70-linux-version-3100-95713el7x86_64" class="md-nav__link">
+    1、以 CentOS 7.0 为例，内核版本号：Linux version 3.10.0-957.1.3.el7.x86_64
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-ubuntu1604-gui" class="md-nav__link">
+    2、以 Ubuntu16.04 + GUI 为例
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    三、用户服务
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_6" type="checkbox" id="__nav_4_6" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4_6">
+          2022年暑培资料
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="2022年暑培资料" data-md-level="2">
+        <label class="md-nav__title" for="__nav_4_6">
+          <span class="md-nav__icon md-icon"></span>
+          2022年暑培资料
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../2022Summer/frontend-base/" class="md-nav__link">
+        前端基础
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../2022Summer/Vue/vue/" class="md-nav__link">
+        Vue.js
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../2022Summer/Nodejs/Nodejs/" class="md-nav__link">
+        Node.js
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../2022Summer/flask/" class="md-nav__link">
+        Flask
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../other/" class="md-nav__link">
+        其他
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#8021" class="md-nav__link">
+    一、注册802.1密码
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    二、配置用户端设备
+  </a>
+  
+    <nav class="md-nav" aria-label="二、配置用户端设备">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-windows10-8021x" class="md-nav__link">
+    2.1 Windows10 系统下配置 802.1x 的方法
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-windows-7-8021x" class="md-nav__link">
+    2.2 Windows 7 系统下的配置 802.1x 的方法
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23-android-8021x" class="md-nav__link">
+    2.3 Android 系统下的配置 802.1x 的方法
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#24-iphoneipad-8021x" class="md-nav__link">
+    2.4 iPhone、iPad 下的配置 802.1x 的方法
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#25-macos-8021x" class="md-nav__link">
+    2.5 macOS 下的配置 802.1x 的方法
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#26-linux-8021x" class="md-nav__link">
+    2.6 Linux 系统下配置 802.1x 的配置方法
+  </a>
+  
+    <nav class="md-nav" aria-label="2.6 Linux 系统下配置 802.1x 的配置方法">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-centos-70-linux-version-3100-95713el7x86_64" class="md-nav__link">
+    1、以 CentOS 7.0 为例，内核版本号：Linux version 3.10.0-957.1.3.el7.x86_64
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-ubuntu1604-gui" class="md-nav__link">
+    2、以 Ubuntu16.04 + GUI 为例
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    三、用户服务
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+
+
+<h1 id="tsinghua-secure">如何上网——关于Tsinghua Secure</h1>
+<p>清华无线校园网802.1x认证系统已正式开通，无线信号名称是“<strong>Tsinghua-Secure</strong>”。</p>
+<p>用户只需通过校园网账号登录自服务系统（<strong>http://usereg.tsinghua.edu.cn</strong>）注册<strong>802.1x</strong>认证系统的密码，一次性配置用户终端设备（电脑、手机、PAD等），以后无需再做任何登录认证操作，直接可以上网。</p>
+<p>使用802.1x认证系统需要进行以下两个操作步骤:</p>
+<ol>
+<li>注册 802.1x 的密码；</li>
+<li>配置用户端的设备。</li>
+</ol>
+<p>详细操作说明如下:</p>
+<h2 id="8021">一、注册802.1密码</h2>
+<ol>
+<li>
+<p><strong>注册密码</strong>：登录自服务系统： http://usereg.tsinghua.edu.cn，选择“ 802.1x 功能”下的“自注册及修改口令”。在密码及确认密码的区域输入密码后，点击“确定”按钮后，即注册802.1x密码成功。如下图所示：
+<img alt="picture 1" src="../images/f3159a9c04f8d6b98d36b079dbe71ddd4fba902293115592bd3d0178bff28748.png" /></p>
+</li>
+<li>
+<p><strong>注意事项</strong>：为确保校园网账号安全，请勿将 802.1x 密码设置为校园网账号密码。</p>
+</li>
+<li>
+<p><strong>若需更改密码</strong>：登录自服务系统：http://usereg.tsinghua.edu.cn ，按照上述步骤操作。</p>
+</li>
+</ol>
+<h2 id="_1">二、配置用户端设备</h2>
+<p>用户终端设备需按不同的操作系统进行配置， Windows/Android/iOS/macOS/Linux 等不同系统下的配置方法如下:</p>
+<h3 id="21-windows10-8021x">2.1 Windows10 系统下配置 802.1x 的方法</h3>
+<ol>
+<li>确认终端在信号覆盖范围内：查找是否能找到 802.1X SSID“ <strong>Tsinghua-Secure</strong>”如果能找到则可以进行下一步。
+<em>如果找不该信号，这说明本地区不在信号覆盖范围内。</em></li>
+<li>选择<strong>Tsinghua-Secure</strong>，点击“连接”
+如下图所示：
+<img alt="picture 1" src="../images/07e2ef9c8f1e02d53d402a2585d4b9958a375f6b4064e1c11ce7525e8172297a.png" />  </li>
+<li>输入用户名：即“<strong>校园网账号</strong>”
+密码：对应账号下的<strong>802.1X密码</strong>
+点击“确定”，之后继续点击“连接”
+<img alt="picture 2" src="../images/d85ca79def7d2859ee15c4a9f4160328e65ce2d78fb083c885c6cd73c84f6992.png" />
+<img alt="picture 3" src="../images/581974ef03d0e008acb102c9096cf8ef396a0a6c7d913834571313fd954086b4.png" /></li>
+</ol>
+<h3 id="22-windows-7-8021x">2.2 Windows 7 系统下的配置 802.1x 的方法</h3>
+<ol>
+<li>
+<p>选择“控制面板”→“查看网络状态和任务”→“网络和共享中心”→“管理无线网络”→进入“管理无线网络窗口”,单击“添加”按钮；
+<img alt="picture 17" src="../images/8d392d69dcc206f6e97f913e31c48fe8c1373dba47f3929d991083d06d57f2b5.png" /></p>
+</li>
+<li>
+<p>设置无线网络信息：选择“手动创建网络配置文件(M)”: 网络名:Tsinghua-Secure；安全类型:WPA2-企业； 加密类型：AES；其它保持缺省配置，然后单击“下一步”，点击：“更改连接设置”；
+<img alt="picture 18" src="../images/e397bfad7ea01b5382f2e718c0944280e53ec18ade91ede83c0cbd94f1e3e3d0.png" />
+<img alt="picture 19" src="../images/6a83419135b9c8f35c1423e5e4121c9412f93491e02ece3d24ae4116f4a0453a.png" />
+<img alt="picture 20" src="../images/1602e919d61e5e0ad3cd4d0afdcfb13406836860cc47307f9ff0681510d0a0c7.png" /></p>
+</li>
+<li>
+<p>配置无线网络安全属性: 点击“安全”属性，按照下图中的标识进行配置：</p>
+</li>
+</ol>
+<p>1） 在“选择网络身份验证方法”-“<strong>设置</strong>”进入受保护的EAP属性页面
+<img alt="picture 21" src="../images/6621e5d770b9e82efd312522d49ff28bfe61e128c7c589d7d69010856e789672.png" /></p>
+<p>2） <strong>取消勾选</strong>“通过验证证书来验证服务器的身份”（，选择身份验证方法中选择“<strong>安全密码（EAP-MSCHAP v2）</strong>”选项，同时保持勾选“<strong>启用快速重新连接</strong>”，点击“配置”。
+<img alt="picture 22" src="../images/70b3ca8abd1cafda2aece061361cf63eeb3ed4cc772b045a0eff31c50ed29963.png" /></p>
+<p>3） 在弹出的“<strong>EAP MSCHAPv2属性</strong>”界面中：<strong>取消勾选</strong>“自动使用Windows登录名和密码”。
+<img alt="picture 23" src="../images/00bdaa6f0bec5f1b08eb6ba4fc922f066b926e23c5c188ce97ba31ba24961d2e.png" /></p>
+<p>4） 进入“<strong>高级设置</strong>”界面后，如下图，在“<strong>802.1X设置</strong>”栏下<strong>勾选</strong>“指定身份验证模式”，选择“<strong>用户或计算机身份验证</strong>”。
+<img alt="picture 24" src="../images/1780fc173e0c15ceb7c1e55ee8614267af12d4dd0c8aee2f5c7aac9e6a02dbae.png" /></p>
+<p>5） 选择“<strong>802.11设置</strong>”栏，如下图，在快速漫游栏目下<strong>取消勾选</strong>“启动成对主密钥（PMK）缓存”，点击“确定”。
+<img alt="picture 25" src="../images/5f953f710163c24fdfeefde6d7dbcef5206757b3de1b02bdfb54b44f23abe7b9.png" />
+<img alt="picture 26" src="../images/620f45b0dbcbfc926c63c8af37dac508c013f236da6d5c4f520a65b05479b21d.png" />
+<img alt="picture 27" src="../images/3ec6e66f6c65052882bf3c40f02a1be9ace7e910a9ccd963a84302a400027a4b.png" />      </p>
+<ol>
+<li>选择并连接 SSID 为 Tsinghua-Secure 的无线网，输入校园网账号和在usereg.tsinghua.edu.cn 中设置的 802.1x 的密码，完成连接。
+<img alt="picture 28" src="../images/d5a27e5bc434de1e5c29b856f6191b07e0be1b6c4c88f971e5782f044efcb51d.png" />
+<img alt="picture 29" src="../images/c247401deae2082c99696a713416a3081227dfde5ecf06987d91dba000f02ffd.png" /></li>
+</ol>
+<h3 id="23-android-8021x">2.3 Android 系统下的配置 802.1x 的方法</h3>
+<ol>
+<li>
+<p>连接 82.1X SSID Tsinghua-Secure；
+<img alt="picture 30" src="../images/3b71eae9eca9f3d8f1cc29b0d19a68682507a5e6a7272647b578e60c1f3e34fd.png" />   </p>
+</li>
+<li>
+<p>按下图填写，身份和密码为校园网账号和在 usereg.tsinghua.edu.cn 中设置的 802.1x的口令。点击连接后完成配置。
+<img alt="picture 31" src="../images/400a0bec532340e82c9d68792431d679c2196614058c7cdbdeaf20a5c05ed54c.png" />  </p>
+</li>
+</ol>
+<h3 id="24-iphoneipad-8021x">2.4 iPhone、iPad 下的配置 802.1x 的方法</h3>
+<ol>
+<li>
+<p>设置---无线局域网中连接 802.1X SSID ：Tsinghua-Secure
+<img alt="picture 32" src="../images/250dddc5e79c27b6cd6601b7210cb35510ad405a03088bdd458b0a57bb758e49.png" /></p>
+</li>
+<li>
+<p>输入校园网账号和口令，身份和密码为校园网账号和在 usereg.tsinghua.edu.cn 中设置的 802.1x 的口令。
+<img alt="picture 33" src="../images/399948f62238c1fa373b5ea7f257cd20cebb0a5c0480cfbdb910f655f40f7c8e.png" /></p>
+</li>
+<li>
+<p>点击信任，首次连接会提示信任该证书，再次连接不会出现该提示。
+<img alt="picture 34" src="../images/1831a83cfda0beb53ebef0e2b81a4e0a4c4062620dc85dc0b708b5557697f276.png" />    </p>
+</li>
+</ol>
+<h3 id="25-macos-8021x">2.5 macOS 下的配置 802.1x 的方法</h3>
+<ol>
+<li>
+<p>连接 802.1X SSID: Tsinghua-Secure；
+<img alt="picture 35" src="../images/7dbef2cbf7ce9c265011542e3c347f896de4d96fcf73971ac1d34ffe9684fdf1.png" />  </p>
+</li>
+<li>
+<p>输入用户名密码：用户名和密码为校园网账号和在 usereg.tsinghua.edu.cn 中设置的802.1x 的口令，点击加入；
+<img alt="picture 36" src="../images/f02f09f6f6a6c32c923dbf64902fd2c4e7529b347267a7459104341128a0a966.png" /></p>
+</li>
+<li>
+<p>点击继续；
+<img alt="picture 37" src="../images/a0921829a02cae8968bd71fd6d1d352bc3c58d4023021c3c032764808c81a947.png" /></p>
+</li>
+<li>
+<p>连接 802.1XSSID: Tsinghua-Secure 后会提示输入 MAC 主机的账号和密码（并非校园网联网账号和密码）；第一次连接时会出现，之后不再出现。输入成功后完成配置。
+<img alt="picture 38" src="../images/0c4a8b66f10639e48ccb78a49bcaac83e1efe98b561fb9da5789463c586816b2.png" /></p>
+</li>
+</ol>
+<h3 id="26-linux-8021x">2.6 Linux 系统下配置 802.1x 的配置方法</h3>
+<h4 id="1-centos-70-linux-version-3100-95713el7x86_64">1、以 CentOS 7.0 为例，内核版本号：Linux version 3.10.0-957.1.3.el7.x86_64</h4>
+<p>1.1、图形化连接方法：</p>
+<p>① 点击状态栏“声音”或者“电池”的图标，然后选择“select network”：
+<img alt="picture 39" src="../images/37aaff9922d64b583aeb0196bc35ad0437330caf06dd7dbf90714259a2b43f9c.png" /></p>
+<p>② 选择“Tsinghua-Secure”：
+<img alt="picture 40" src="../images/ceaa37e828ac593468aa149c1171948686e32dd894859c585803393cb35de901.png" /></p>
+<p>③ 在弹出的输入框中，将“Authentication”选择为“Protected EAP(PEAP)”，勾选“No CA certificate is required”，“ PEAP version”选择为“Automatic” ， “Inner authentication”选择为“MSCHAPv2”，最后输入用户名、密码，即可连接成功。
+<img alt="picture 41" src="../images/b0435b84c48e59f440cfcbdeed4260ae49b53642e48331da89be600f5db959b4.png" /></p>
+<p>1.2、命令行连接方法：</p>
+<p>① 在 Terminal 中，通过命令“iw dev”查看无线网卡的标识：
+<img alt="picture 42" src="../images/7b51df8fba90bc70e50791607765094143bcced7a91cfd1da3d47acca809e8fb.png" />  </p>
+<p>② 通过如下命令，创建用于连接 802.1x 无线网络的配置文件：
+<img alt="picture 43" src="../images/9432fc95ec833449a8e8f646508d441de5f996e84c49417c3493e3f20fa9c6ac.png" /></p>
+<p>③ 通过如下命令，查看已经存在的网络配置文件：</p>
+<p># nmcli connection show
+<img alt="picture 44" src="../images/3145398377a6f19f71d96644fc7f3f13a0ed21e743ed4d9761380083dc6c1302.png" /></p>
+<p>④ 通过如下命令，将刚创建的配置文件绑定到无线网卡上</p>
+<p># nmcli connection up Tsinghua-Secure ifname wl01
+<img alt="picture 45" src="../images/7b51df8fba90bc70e50791607765094143bcced7a91cfd1da3d47acca809e8fb.png" /></p>
+<p>⑤ 查看是否成功连接到 802.1x 网络及网卡的 IP 地址</p>
+<p># nmcli connection show 
+# ifconfig wlo1
+<img alt="picture 46" src="../images/7660e6239b1e82d4e3220c4b6d51b2272c943d0d7065b5b29bba8aafdb8ac06a.png" /></p>
+<h4 id="2-ubuntu1604-gui">2、以 Ubuntu16.04 + GUI 为例</h4>
+<ol>
+<li>
+<p>选择认证方式为 PEAP 类型</p>
+</li>
+<li>
+<p>勾选不使用 CA 证书</p>
+</li>
+<li>
+<p>内部认证选择 MSCHAPV2 类型</p>
+</li>
+<li>
+<p>填写校园网用户名以及在 https://usereg.tsinghua.edu.cn 网站内注册的 802.1x 密码
+<img alt="picture 47" src="../images/8fd171ef826e396fdff35a321413eae0939628da5897bad7fe92d672c4c99278.png" /></p>
+</li>
+</ol>
+<h2 id="_2">三、用户服务</h2>
+<p>使用过程中，如有问题可通过以下方式获得帮助服务：热线电话：010-62784859</p>
+<p><a href="mailto:its@tsinghua.edu.cn">服务邮箱：its@tsinghua.edu.cn</a></p>
+<p>接待服务：信息化技术中心用户服务大厅（李兆基大楼东2门A128室） 企业微信号：关注“清华大学信息服务”，通过网络服务选项进行咨询。
+<img alt="picture 48" src="../images/505a0422c552e4bab00fb3b9c977c6df80759b013406107331efa0912ce7f630.png" /></p>
+
+              
+            </article>
+          </div>
+        </div>
+        
+          <a href="#" class="md-top md-icon" data-md-component="top" data-md-state="hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"/></svg>
+            回到页面顶部
+          </a>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="页脚">
+      
+        
+        <a href="../../monkey_script/MonkeyScript/" class="md-footer__link md-footer__link--prev" aria-label="上一页: 油猴脚本" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                上一页
+              </span>
+              油猴脚本
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../../2022Summer/frontend-base/" class="md-footer__link md-footer__link--next" aria-label="下一页: 前端基础" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                下一页
+              </span>
+              前端基础
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+      
+      
+    
+    <a href="https://github.com/ssast-readme/ssast-readme.github.io" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+    </a>
+  
+    
+    
+      
+      
+    
+    <a href="https://twitter.com/squidfunk" target="_blank" rel="noopener" title="twitter.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+    </a>
+  
+    
+    
+      
+      
+    
+    <a href="https://www.linkedin.com/in/squidfunk" target="_blank" rel="noopener" title="www.linkedin.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.instant", "navigation.tabs", "navigation.sections", "navigation.top"], "translations": {"clipboard.copy": "\u590d\u5236", "clipboard.copied": "\u5df2\u590d\u5236", "search.config.lang": "ja", "search.config.pipeline": "trimmer, stemmer", "search.config.separator": "[\\uff0c\\u3002]+", "search.placeholder": "\u641c\u7d22", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.term.missing": "\u7f3a\u5c11", "select.version.title": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}, "search": "../../../assets/javascripts/workers/search.bd0b6b67.min.js"}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.8aa65030.min.js"></script>
+      
+        <script src="../../../javascripts/mathjax.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>
