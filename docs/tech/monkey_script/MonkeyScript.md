@@ -11,24 +11,24 @@
 打开浏览器的扩展商店，搜索`Tampermonkey`，或者复制链接
 [https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
 到浏览器。如下图，点击`添加至Chrome`按钮，即可下载并安装用户脚本管理器。
-![](/tech/monkey_script/img/tampermonkey-download.png)
+![](img/tampermonkey-download.png)
 
 安装完成后，地址栏右侧会出现灰色的Tampermonkey图标。
 
-![](/tech/monkey_script/img/tampermonkey-installed.png)
+![](img/tampermonkey-installed.png)
 
 ### 下载并安装热门的用户脚本
 
 以[Github网络增强脚本](https://greasyfork.org/zh-CN/scripts/412245-github-%E5%A2%9E%E5%BC%BA-%E9%AB%98%E9%80%9F%E4%B8%8B%E8%BD%BD)为例，这个脚本可以提升下载releases中文件的速度。
 
-![](/tech/monkey_script/img/greasyfork-github.png)
+![](img/greasyfork-github.png)
 
 安装完成后再打开Github，可以发现Releases多出了选择下载服务器。
 
 |                                 |                                |
 | ------------------------------- | ------------------------------ |
-| BEFORE | ![](/tech/monkey_script/img/github-release-before.png) |
-| AFTER | ![](/tech/monkey_script/img/github-release-after.png) |
+| BEFORE | ![](img/github-release-before.png) |
+| AFTER | ![](img/github-release-after.png) |
 
 可以在[Greasy Fork](https://greasyfork.org/zh-CN)或是[Github](https://gist.github.com/search?l=JavaScript&o=desc&q="%3D%3DUserScript%3D%3D"&s=updated)上下载并安装更多热门的用户脚本，例如[各大网站音乐、视频下载](https://greasyfork.org/zh-CN/scripts/418804-解锁b站大会员番剧-b站视频解析下载-全网vip视频免费破解去广告-全网音乐直接下载-油管-facebook等国外视频解析下载-网盘搜索引擎破解无限下载等)，[豆瓣和IMDb互相显示评分](https://greasyfork.org/zh-CN/scripts/7687-moremovieratings)等。
 
@@ -38,11 +38,11 @@
 
 除去安装他人完成的脚本外，还可以编写自定义用户脚本。点击地址栏右侧的Tampermonkey扩展图片，在下拉菜单中选择`管理面板`。
 
-![](/tech/monkey_script/img/tampermonkey-panel.png)
+![](img/tampermonkey-panel.png)
 
 在打开的页面中点击加号按钮，可以创建新的用户脚本。
 
-![](/tech/monkey_script/img/tampermonkey-newscript.png)
+![](img/tampermonkey-newscript.png)
 
 新的用户脚本包含以下JavaScript代码：
 
@@ -141,3 +141,7 @@
 
 > https://www.tampermonkey.net/documentation.php?ext=dhdg&locale=zh
 > https://developer.mozilla.org/zh-CN/docs/Web/API
+
+## 下载pdf
+
+[点击下载](MonkeyScript.pdf)
