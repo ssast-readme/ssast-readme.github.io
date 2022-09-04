@@ -35,6 +35,11 @@ nav:
       - Vue.js: "tech/2022Summer/Vue/vue.md"
       - Node.js: "tech/2022Summer/Nodejs/Nodejs.md"
       - Flask: "tech/2022Summer/flask.md"
+      - Webpack: "tech/2022Summer/webpack/webpack.md"
+      - Linux: "tech/2022Summer/Linux.md"
+      - Python: "tech/2022Summer/Python/python.md"
+      - Git: "tech/2022Summer/git/git.md"
+      - Qt: "tech/2022Summer/Qt/qt.md"
     - 其他: "tech/other.md"
   - 科创经验分享:
     - 星火计划: 

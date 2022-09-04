@@ -230,4 +230,4 @@ ICP备案分两部分，分别是：代理商审批和地方通信管理部门�
 
 ## 下载 PDF
 
-[点击下载](https://ssast-readme.github.io/tech/publish_website/How-to-publish-your-website.pdf)
+[点击下载](How-to-publish-your-website.pdf)
