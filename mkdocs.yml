@@ -39,6 +39,7 @@ nav:
       - Linux: "tech/2022Summer/Linux.md"
       - Python: "tech/2022Summer/Python/python.md"
       - Git: "tech/2022Summer/git/git.md"
+      - CMake: "tech/2022Summer/cmake/cmake.md"
       - Qt: "tech/2022Summer/Qt/qt.md"
     - 其他: "tech/other.md"
   - 科创经验分享:
