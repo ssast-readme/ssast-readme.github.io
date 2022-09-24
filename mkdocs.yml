@@ -12,6 +12,7 @@ nav:
     - 人工智能导论:
       - Learning(1): "note/AI-learning1/AI-learning1.md"
     - 复变函数引论: "note/complex-function/readme.md"
+    - 数据库: "note/database/Chapter 6  Database Design Using the E-R Model.md"
     - 其他: "note/other.md"
   - 作业攻略: 
     - 介绍: "homework/homework.md"
