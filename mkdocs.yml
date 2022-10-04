@@ -8,11 +8,14 @@ nav:
     - 志愿工时发放标准: "ReadMe志愿工时发放标准.md"
   - 课程笔记: 
     - 介绍: "note/note.md"
-    - 操作系统复习提纲: "note/os/os.md"
+    - 操作系统:
+      - 复习提纲: "note/os/os.md"
     - 人工智能导论:
       - Learning(1): "note/AI-learning1/AI-learning1.md"
-    - 复变函数引论: "note/complex-function/readme.md"
-    - 数据库: "note/database/Chapter 6  Database Design Using the E-R Model.md"
+    - 复变函数引论: 
+      - 杨晓京老师笔记: "note/complex-function/readme.md"
+    - 数据库: 
+      - 第六章E-R模型: "note/database/Chapter 6  Database Design Using the E-R Model.md"
     - 其他: "note/other.md"
   - 作业攻略: 
     - 介绍: "homework/homework.md"
@@ -31,7 +34,6 @@ nav:
     - 连接Tsinghua-Secure: "tech/Tsinghua-Secure/tsinghua-secure.md"
     - 在软工项目中使用SSL证书: "tech/using-SSL-in-SE/content.md"
     - 如何合法的、安全的发布自己的网站: "tech/publish_website/How-to-publish-your-website.md"
-    - 基于uni-app框架的小程序开发: "tech/uni-app/基于uni-app框架的小程序开发.md"
     - 2022年暑培资料:
       - 前端基础: "tech/2022Summer/frontend-base.md"
       - Vue.js: "tech/2022Summer/Vue/vue.md"
@@ -43,6 +45,8 @@ nav:
       - Git: "tech/2022Summer/git/git.md"
       - CMake: "tech/2022Summer/cmake/cmake.md"
       - Qt: "tech/2022Summer/Qt/qt.md"
+      - Docker: "tech/2022Summer/docker/Docker_Tutorial.md"
+      - 基于uni-app框架的小程序开发: "tech/2022Summer/uni-app/基于uni-app框架的小程序开发.md"
     - 其他: "tech/other.md"
   - 科创经验分享:
     - 星火计划: 
