@@ -1,6 +1,6 @@
 # Linux
 
-> 2022 年 8 月 2 日 讲师：赵乙宁
+> 2022 年 8 月 2 日 讲解：赵乙宁
 
 * [讲义链接](https://101.lug.ustc.edu.cn/)
 * [PPT 链接](https://github.com/ustclug/Linux101-USTC/tree/master/Archive/2019/Slide)

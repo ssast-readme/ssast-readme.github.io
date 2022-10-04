@@ -1,6 +1,7 @@
 # 人工智能导论——Learning1
 
 > 作者：Kirino
+> 联系方式：he-jx19@mails.tsinghua.edu.cn
 
 ## ML框架
 
