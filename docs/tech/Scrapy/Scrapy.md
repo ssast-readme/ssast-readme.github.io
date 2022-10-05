@@ -5,7 +5,7 @@
 
 Scrapy是一个常用的Python爬虫框架，主要由`Spider`、`Engien`、`Scheduler`和`Downloader`组成。运行机制如下图所示
 
-<img src="img/structure.png" style="zoom: 25%;" />
+<img src="/tech/Scrapy/img/structure.png" style="zoom: 25%;" />
 
 `Spider`发出请求（包括目标url、请求体等），经过中间件包装后发送到`Engine`。`Engine`再把请求派发给`Scheduler`，`Scheduler`按照任务队列的形式，将请求经中间件处理后调用`Downloader`下载请求资源。在`Spider`拿到响应，解析资源后可以交给`Item Pipeline`进行进一步处理。
 
@@ -89,7 +89,7 @@ for url in start_urls:
 </html>
 ```
 
-> Scrapy还提供一个交互式的shell，通过运行`scrapy shell 'https://www.thss.tsinghua.edu.cn/szdw/jsml.htm'`即可打开。在这个shell里，可以通过response变量访问到我们请求的响应。
+> Scrapy还提供一个交互式的shell，通过运行`scrapy shell 'https://www.thss.tsinghua.edu.cn/szdw/jsml.html'`即可打开。在这个shell里，可以通过response变量访问到我们请求的响应。
 
 ### 定义数据结构
 
@@ -173,5 +173,5 @@ $ scrapy startproject mySpider -o teacher_info.csv
 
 在Excel或者Numbers中打开，则可以看到下面的结果
 
-<img src="img/result.png" alt="截屏2022-08-09 00.14.58" style="zoom:50%;" />
+<img src="/tech/Scrapy/img/result.png" alt="截屏2022-08-09 00.14.58" style="zoom:50%;" />
 

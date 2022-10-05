@@ -34,6 +34,7 @@ nav:
     - 连接Tsinghua-Secure: "tech/Tsinghua-Secure/tsinghua-secure.md"
     - 在软工项目中使用SSL证书: "tech/using-SSL-in-SE/content.md"
     - 如何合法的、安全的发布自己的网站: "tech/publish_website/How-to-publish-your-website.md"
+    - Python爬虫框架Scrapy: "tech/Scrapy/Scrapy.md"
     - 2022年暑培资料:
       - 前端基础: "tech/2022Summer/frontend-base.md"
       - Vue.js: "tech/2022Summer/Vue/vue.md"
