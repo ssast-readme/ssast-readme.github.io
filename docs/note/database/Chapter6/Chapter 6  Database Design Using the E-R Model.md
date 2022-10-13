@@ -38,7 +38,7 @@
 
 - 简单和复合属性(composite attributes)。复合属性是指可以被划分为更小属性的属性(component attributes)。若不能被划分，则为简单属性。
 
-  <img src="/note/database/image-20220802152517211.png" alt="image-2022080252517211" style="zoom:50%;" />
+  <img src="/note/database/Chapter6/img/image-20220802152517211.png" alt="image-2022080252517211" style="zoom:50%;" />
 
 - 单值和多值属性。多值属性是指一个属性可以保存一组值，比如一个用户可以有多个字符串（多个电话号码）存储在phone_number中。表示为{phone_number}。
 
@@ -50,7 +50,7 @@
 
 本节介绍E-R模型中实体属性的符号表示。
 
-<img src="/note/database/image-20220802152647692.png" alt="image-2022080212647692" style="zoom:50%;" />
+<img src="/note/database/Chapter6/img/image-20220802152647692.png" alt="image-2022080212647692" style="zoom:50%;" />
 
 - 主键：在属性名下划线
 - 复合属性：用缩进表示组合关系
@@ -65,11 +65,11 @@
 
 实例在联系中扮演的功能被称为角色(role)。通常可以省略。但在自环的联系(即实体集与自己的联系)中，角色是重要的。例如课程集的先修关系。
 
-<img src="/note/database/image-20220610220922724.png" alt="image-20220610220922724" style="zoom:20%;" />
+<img src="/note/database/Chapter6/img/image-20220610220922724.png" alt="image-20220610220922724" style="zoom:20%;" />
 
 联系可以具有描述性属性。即每个联系实例能够具有属性。但联系实例必须能够仅由参与实体唯一标识（见6.3.码）。
 
-<img src="/note/database/image-20220610221003374.png" alt="image-20220610221003374" style="zoom:20%;" />
+<img src="/note/database/Chapter6/img/image-20220610221003374.png" alt="image-20220610221003374" style="zoom:20%;" />
 
 对某个联系集，参与实体集的个数被称作该联系集的度(degree)。例如上图存在一个二元联系集，它的度为2。
 
@@ -92,7 +92,7 @@
 - 多对一：A中的一个实体仅参与一个联系实例，B中的一个实体能够参与多个联系实例。
 - 多对多：A中的一个实体能关联多个B的实体，反之亦然。
 
-![image-20220802154007799](image-20220802154007799.png)
+![image-20220802154007799](img/image-20220802154007799.png)
 
 ### 码(key)
 
@@ -120,11 +120,11 @@
 - 双线表示实体集**完全**参与联系集
 - 双菱形表示连接弱实体集的标志性联系集（见后文叙述）
 
-<img src="/note/database/image-20220802162536249.png" alt="image-20220802162536249" style="zoom:40%;" />
+<img src="/note/database/Chapter6/img/image-20220802162536249.png" alt="image-20220802162536249" style="zoom:40%;" />
 
 ### 映射基数
 
-<img src="/note/database/image-20220405214430077.png" alt="image-20220405214430077" style="zoom:50%;" />
+<img src="/note/database/Chapter6/img/image-20220405214430077.png" alt="image-20220405214430077" style="zoom:50%;" />
 
 **非二元的联系集**
 
@@ -134,11 +134,11 @@
 
 这里的数字就是映射基数的范围。也就是说：一个学生只能参与一个关系，而一个教授能够参与多个关系。于是，这是一个一对多的联系。
 
-<img src="/note/database/image-20220405214843272.png" alt="image-20220405214843272" style="zoom:50%;" />
+<img src="/note/database/Chapter6/img/image-20220405214843272.png" alt="image-20220405214843272" style="zoom:50%;" />
 
 ### 属性
 
-<img src="/note/database/image-20220802152647692.png" alt="image-2022080212647692" style="zoom:50%;" />
+<img src="/note/database/Chapter6/img/image-20220802152647692.png" alt="image-2022080212647692" style="zoom:50%;" />
 
 用缩进表示复合属性；用{}表示多值属性；用()表示派生属性，就像是一个函数。
 
@@ -146,7 +146,7 @@
 
 在到联系的实线上标注名称，以说明角色。
 
-<img src="/note/database/image-20220610220922724.png" alt="image-20220610220922724" style="zoom:20%;" />
+<img src="/note/database/Chapter6/img/image-20220610220922724.png" alt="image-20220610220922724" style="zoom:20%;" />
 
 
 
@@ -168,7 +168,7 @@
 
 弱实体集的分辨符以**虚下划线**标明，而不是实线。关联弱实体集和标识性强实体集的联系集以**双菱形**表示。
 
-<img src="/note/database/image-20220802154839196.png" alt="image-20220802154839196" style="zoom:50%;" />
+<img src="/note/database/Chapter6/img/image-20220802154839196.png" alt="image-20220802154839196" style="zoom:50%;" />
 
 
 
@@ -232,7 +232,7 @@ E的一个实体对应S的一个元组。我们只需要根据E建立一张表�
 
 ### 特化、概化与属性继承
 
-<img src="/note/database/image-20220802160141712.png" alt="image-20220802160141712" style="zoom:33%;" />
+<img src="/note/database/Chapter6/img/image-20220802160141712.png" alt="image-20220802160141712" style="zoom:33%;" />
 
 **特化(specialization**)实际上是一种设计过程。即先提出一个较为抽象的实体集，再细化，加一些差异性的属性。
 
@@ -253,7 +253,7 @@ E的一个实体对应S的一个元组。我们只需要根据E建立一张表�
 
 聚集的含义是：建立一个多元组，这个多元组包括聚集内部参与联系集的所有实体集。
 
-<img src="/note/database/image-20220802160556069.png" alt="image-20220802160556069" style="zoom:33%;" />
+<img src="/note/database/Chapter6/img/image-20220802160556069.png" alt="image-20220802160556069" style="zoom:33%;" />
 
 ### 概化的关系模型表示
 
@@ -288,7 +288,7 @@ E的一个实体对应S的一个元组。我们只需要根据E建立一张表�
 
 当然，我们还需要增加标识属性，以将(a,b,c)转化为(a,e),(b,e),(c,e)。
 
-<img src="/note/database/image-20220802161253204.png" alt="image-20220802161253204" style="zoom:40%;" />
+<img src="/note/database/Chapter6/img/image-20220802161253204.png" alt="image-20220802161253204" style="zoom:40%;" />
 
 当然，有些n元联系会更自然，并且n元联系上的约束可能无法转化为二元约束。
 

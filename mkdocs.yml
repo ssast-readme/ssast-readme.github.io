@@ -15,7 +15,8 @@ nav:
     - 复变函数引论: 
       - 杨晓京老师笔记: "note/complex-function/readme.md"
     - 数据库: 
-      - 第六章E-R模型: "note/database/Chapter 6  Database Design Using the E-R Model.md"
+      - 第六章E-R模型: "note/database/Chapter6/Chapter 6  Database Design Using the E-R Model.md"
+      - 第七章关系数据库设计: "note/database/Chapter7/Chapter 7.md"
     - 其他: "note/other.md"
   - 作业攻略: 
     - 介绍: "homework/homework.md"
@@ -25,6 +26,12 @@ nav:
       - OJ2-3_游戏_括号匹配: "homework/dsa-OJ/OJ2/OJ2-3.md"
       - OJ3-2_旅行商_拓扑排序: "homework/dsa-OJ/OJ3/OJ3-2.md"
       - OJ3-3_气象台_KD树: "homework/dsa-OJ/OJ3/OJ3-3.md"
+    - 操作系统:
+      - 在xv6中实现音频播放: "homework/OS-music/content.md"
+    - 汇编与编译原理:
+      - VS2022配置汇编高亮: "homework/VS-Assembly/VS-Assembly.md"
+    - Qt小学期: 
+      - FFmpeg与视频编解码: "homework/Qt/FFmpeg.md"
     - 其他: "homework/other.md"
   - 技术分享: 
     - 介绍: "tech/tech.md"
@@ -33,8 +40,10 @@ nav:
     - 油猴脚本: "tech/monkey_script/MonkeyScript.md"
     - 连接Tsinghua-Secure: "tech/Tsinghua-Secure/tsinghua-secure.md"
     - 在软工项目中使用SSL证书: "tech/using-SSL-in-SE/content.md"
-    - 如何合法的、安全的发布自己的网站: "tech/publish_website/How-to-publish-your-website.md"
+    - 合法的、安全地发布自己的网站: "tech/publish_website/How-to-publish-your-website.md"
     - Python爬虫框架Scrapy: "tech/Scrapy/Scrapy.md"
+    - Zerotier实现内网穿透: "tech/Zerotier/Zerotier_guide.md"
+    - apache2简易指北: "tech/apache2/apache2_guide.md"
     - 2022年暑培资料:
       - 前端基础: "tech/2022Summer/frontend-base.md"
       - Vue.js: "tech/2022Summer/Vue/vue.md"
@@ -63,7 +72,7 @@ theme:
   features:
     - navigation.instant
     - navigation.tabs
-    - navigation.sections
+    - navigation
     - navigation.top
 
 extra:
