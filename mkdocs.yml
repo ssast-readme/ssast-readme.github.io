@@ -61,6 +61,14 @@ nav:
   - 科创经验分享:
     - 星火计划: 
       - 经验分享: "innovation/star/share.md"
+  - 书信传情: 
+    - 简介: "letter/ReadMe X 书信传情2021简介.md"
+    - 2021:
+      - 经历&建议: "letter/2021书信传情-经历&建议.md"
+      - 心态调整: "letter/2021书信传情-心态调整.md"
+      - 信息获取: "letter/2021书信传情-信息获取.md"
+      - 学业规划: "letter/2021书信传情-学业规划.md"
+      - 未来展望: "letter/2021书信传情-未来展望.md"
 
 theme:
   name: material
