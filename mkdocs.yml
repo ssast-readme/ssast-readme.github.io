@@ -17,6 +17,24 @@ nav:
     - 数据库: 
       - 第六章E-R模型: "note/database/Chapter6/Chapter 6  Database Design Using the E-R Model.md"
       - 第七章关系数据库设计: "note/database/Chapter7/Chapter 7.md"
+    - 贵系Rust小学期:
+      - Rust课程笔记L1: "note/Rust/rustL1.md"
+      - Rust课程笔记L2: "note/Rust/rustL2.md"
+      - Rust课程笔记L3: "note/Rust/rustL3.md"
+      - Rust课程笔记L4: "note/Rust/rustL4.md"
+      - Rust课程笔记L5: "note/Rust/rustL5.md"
+      - Rust课程笔记L6: "note/Rust/rustL6.md"
+      - Rust课程笔记L7: "note/Rust/rustL7.md"
+    - 微积分A2:
+      - 第一讲多元函数的连续性: "note/calculus/A2L1.md"
+      - 第二讲多元函数的极限: "note/calculus/A2L2.md"
+      - 第三讲多元函数的导数和微分: "note/calculus/A2L3.md"
+      - 第四讲高阶导数与泰勒公式: "note/calculus/A2L4.md"
+      - 第五讲极值、临界点: "note/calculus/A2L5.md"
+    - 初等数论:
+      - 第一章: "note/number-theory/theoryL1.md"
+      - 第二章: "note/number-theory/theoryL2.md"
+      - 第三章: "note/number-theory/theoryL3.md"
     - 其他: "note/other.md"
   - 作业攻略: 
     - 介绍: "homework/homework.md"
@@ -44,6 +62,7 @@ nav:
     - Python爬虫框架Scrapy: "tech/Scrapy/Scrapy.md"
     - Zerotier实现内网穿透: "tech/Zerotier/Zerotier_guide.md"
     - apache2简易指北: "tech/apache2/apache2_guide.md"
+    - Mermaid教程: "tech/Mermaid/Mermaid_note.md"
     - 2022年暑培资料:
       - 前端基础: "tech/2022Summer/frontend-base.md"
       - Vue.js: "tech/2022Summer/Vue/vue.md"
