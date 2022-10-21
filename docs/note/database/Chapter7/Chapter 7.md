@@ -13,11 +13,13 @@
 ### 定义
 
 函数依赖$A\rightarrow B$在关系模式R上成立(hold on)是指：
+
 $$
 A\rightarrow B\ \textbf{if.f}\ \  \forall t_1,t_2,\ t_1[A]=t_2[A]\rightarrow t_1[B]=t_2[B]
 \\
 \textbf{其中，} \ A \subseteq R.\textbf{attributes};\ B\subseteq R.\textbf{attributes};\ t_1,t_2为R的\textbf{tuple.}
 $$
+
 也就是说，对任意实例，属性集$A$的取值是相同的，属性集$B$的取值也必然相同。比如，主键相同时，其它属性也相同。
 
 > 在后续表述中，如果关系模式$R$是不言自明的，我们将简称函数依赖关系为：$A\rightarrow B$成立。
@@ -203,6 +205,6 @@ $$
 
 这是一种**无损分解**，且**保持依赖**，但有可能引入冗余。
 
-<img src="img/3NF.png" alt="image-2022093016012645" style="zoom:67%;" />
+<img src="/note/database/Chapter7/img/3NF.png" alt="image-2022093016012645" style="zoom:67%;" />
 
 ​    

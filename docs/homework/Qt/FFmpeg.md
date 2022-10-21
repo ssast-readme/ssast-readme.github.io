@@ -1,7 +1,9 @@
 # FFmpeg的使用
+> 作者: 此心光明
 > [FFmpeg](https://www.ffmpeg.org/) 是视频处理一款常用的开源命令行软件。
 > 它功能强大，用途广泛，大量用于视频网站和商业软件（比如 Youtube 和 iTunes），也是许多音频和视频格式的标准编码/解码实现。
 > 某年软院大一的小学期要求写一个剪辑软件，为此笔者学习了FFmpeg的使用，在这里对FFmpeg的基本操作进行一些总结。
+
 
 ## 环境搭建
 根据官方文档进行安装。[Download FFmpeg](https://www.ffmpeg.org/download.html)
