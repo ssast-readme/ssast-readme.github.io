@@ -69,13 +69,13 @@ SSL的基石是公钥-私钥加密体系。公钥被放在证书中，私钥被�
     </tr>
     <tr>
         <td>
-            <img src=/tech/using-SSL-in-SE/img/image-20220715193609896.png>
+            <img src=img/image-20220715193609896.png>
         </td>
         <td>
-            <img src=/tech/using-SSL-in-SE/img/image-20220715193743716.png>
+            <img src=img/image-20220715193743716.png>
         </td>
         <td>
-            <img src=/tech/using-SSL-in-SE/img/image-20220715193949526.png>
+            <img src=img/image-20220715193949526.png>
         </td>
     </tr>
 </table>
@@ -96,13 +96,13 @@ SSL的基石是公钥-私钥加密体系。公钥被放在证书中，私钥被�
     </tr>
     <tr>
         <td>
-            <img src=/tech/using-SSL-in-SE/img/image-20220715194208485.png>
+            <img src=img/image-20220715194208485.png>
         </td>
         <td>
-            <img src=/tech/using-SSL-in-SE/img/image-20220715194208486.png>
+            <img src=img/image-20220715194208486.png>
         </td>
         <td>
-            <img src=/tech/using-SSL-in-SE/img/image-20220715194508252.png>
+            <img src=img/image-20220715194508252.png>
         </td>
     </tr>
 </table>
@@ -217,4 +217,9 @@ SSL的基石是公钥-私钥加密体系。公钥被放在证书中，私钥被�
 
 示例代码可以在[github仓库](https://github.com/citrusreticulata/ssl-tencent-auth-sample)下载。
 
-[点击下载pdf](content.pdf)
+
+
+
+
+
+

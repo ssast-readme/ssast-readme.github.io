@@ -50,6 +50,9 @@ nav:
       - VS2022配置汇编高亮: "homework/VS-Assembly/VS-Assembly.md"
     - Qt小学期: 
       - FFmpeg与视频编解码: "homework/Qt/FFmpeg.md"
+    - 软工:
+      - 在软工项目中使用SSL证书: "homework/SE/using-SSL-in-SE/content.md"
+      - 合法的、安全地发布自己的网站: "homework/SE/publish_website/How-to-publish-your-website.md"
     - 其他: "homework/other.md"
   - 技术分享: 
     - 介绍: "tech/tech.md"
@@ -57,8 +60,6 @@ nav:
     - Manjaro系统入门: "tech/Intro-To-Manjaro/ManjaroIntro.md"
     - 油猴脚本: "tech/monkey_script/MonkeyScript.md"
     - 连接Tsinghua-Secure: "tech/Tsinghua-Secure/tsinghua-secure.md"
-    - 在软工项目中使用SSL证书: "tech/using-SSL-in-SE/content.md"
-    - 合法的、安全地发布自己的网站: "tech/publish_website/How-to-publish-your-website.md"
     - Python爬虫框架Scrapy: "tech/Scrapy/Scrapy.md"
     - Zerotier实现内网穿透: "tech/Zerotier/Zerotier_guide.md"
     - apache2简易指北: "tech/apache2/apache2_guide.md"

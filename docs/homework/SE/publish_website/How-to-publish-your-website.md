@@ -59,10 +59,10 @@
     </tr>
     <tr>
         <td>
-            <img src=/tech/publish_website/img/image-20220715211000146.png>
+            <img src=/homework/SE/publish_website/img/image-20220715211000146.png>
         </td>
         <td>
-            <img src=/tech/publish_website/img/image-20220715211147739.png>
+            <img src=/homework/SE/publish_website/img/image-20220715211147739.png>
         </td>
     </tr>
 </table>
@@ -170,13 +170,13 @@ ICP备案分两部分，分别是：代理商审批和地方通信管理部门�
     </tr>
     <tr>
         <td>
-            <img src=/tech/publish_website/img/image-20220715193609896.png>
+            <img src=/homework/SE/publish_website/img/image-20220715193609896.png>
         </td>
         <td>
-            <img src=/tech/publish_website/img/image-20220715193743716.png>
+            <img src=/homework/SE/publish_website/img/image-20220715193743716.png>
         </td>
         <td>
-            <img src=/tech/publish_website/img/image-20220715193949526.png>
+            <img src=/homework/SE/publish_website/img/image-20220715193949526.png>
         </td>
     </tr>
 </table>

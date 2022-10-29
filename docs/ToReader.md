@@ -4,7 +4,7 @@
 
 一、文档阅读与下载
 
-ReadMe会分类展示稿件。每个文档后都会附上源文件的github仓库地址。你可以前往下载并进行二次创作。
+ReadMe会分类展示稿件。我们的git仓库连接为[https://github.com/ssast-readme/ssast-readme.github.io](https://github.com/ssast-readme/ssast-readme.github.io)，你可以前往下载并进行二次创作。如果您觉得ReadMe对您有帮助，也可以在GitHub上给我们Star。
 
 二、文档反馈
 
