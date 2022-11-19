@@ -15,22 +15,26 @@ nav:
     - 复变函数引论: 
       - 杨晓京老师笔记: "note/complex-function/readme.md"
     - 数据库: 
-      - 第六章E-R模型: "note/database/Chapter6/Chapter 6  Database Design Using the E-R Model.md"
+      - 第六章 E-R 模型: "note/database/Chapter6/Chapter 6  Database Design Using the E-R Model.md"
       - 第七章关系数据库设计: "note/database/Chapter7/Chapter 7.md"
-    - 贵系Rust小学期:
-      - Rust课程笔记L1: "note/Rust/rustL1.md"
-      - Rust课程笔记L2: "note/Rust/rustL2.md"
-      - Rust课程笔记L3: "note/Rust/rustL3.md"
-      - Rust课程笔记L4: "note/Rust/rustL4.md"
-      - Rust课程笔记L5: "note/Rust/rustL5.md"
-      - Rust课程笔记L6: "note/Rust/rustL6.md"
-      - Rust课程笔记L7: "note/Rust/rustL7.md"
-    - 微积分A2:
+    - 贵系 Rust 小学期:
+      - Rust 课程笔记 L1: "note/Rust/rustL1.md"
+      - Rust 课程笔记 L2: "note/Rust/rustL2.md"
+      - Rust 课程笔记 L3: "note/Rust/rustL3.md"
+      - Rust 课程笔记 L4: "note/Rust/rustL4.md"
+      - Rust 课程笔记 L5: "note/Rust/rustL5.md"
+      - Rust 课程笔记 L6: "note/Rust/rustL6.md"
+      - Rust 课程笔记 L7: "note/Rust/rustL7.md"
+    - 微积分 A2:
       - 第一讲多元函数的连续性: "note/calculus/A2L1.md"
       - 第二讲多元函数的极限: "note/calculus/A2L2.md"
       - 第三讲多元函数的导数和微分: "note/calculus/A2L3.md"
       - 第四讲高阶导数与泰勒公式: "note/calculus/A2L4.md"
       - 第五讲极值、临界点: "note/calculus/A2L5.md"
+    - 大学物理 B2:
+      - 大学物理 B2 整理: "note/physics/physics.md"
+    - 初等概率论:
+      - 初等概率论课程笔记: "note/probability/probability.md"
     - 初等数论:
       - 第一章: "note/number-theory/theoryL1.md"
       - 第二章: "note/number-theory/theoryL2.md"
@@ -38,33 +42,34 @@ nav:
     - 其他: "note/other.md"
   - 作业攻略: 
     - 介绍: "homework/homework.md"
-    - 数据结构OJ较难作业解析:
+    - 数据结构 OJ 较难作业解析:
       - By 作者: "homework/dsa-OJ/README.md"
       - OJ1-3_灯塔_归并排序: "homework/dsa-OJ/OJ1/OJ1-3.md"
       - OJ2-3_游戏_括号匹配: "homework/dsa-OJ/OJ2/OJ2-3.md"
       - OJ3-2_旅行商_拓扑排序: "homework/dsa-OJ/OJ3/OJ3-2.md"
       - OJ3-3_气象台_KD树: "homework/dsa-OJ/OJ3/OJ3-3.md"
     - 操作系统:
-      - 在xv6中实现音频播放: "homework/OS-music/content.md"
+      - 在 xv6 中实现音频播放: "homework/OS-music/content.md"
     - 汇编与编译原理:
-      - VS2022配置汇编高亮: "homework/VS-Assembly/VS-Assembly.md"
-    - Qt小学期: 
-      - FFmpeg与视频编解码: "homework/Qt/FFmpeg.md"
+      - VS2022 配置汇编高亮: "homework/VS-Assembly/VS-Assembly.md"
+    - Qt 小学期: 
+      - FFmpeg 与视频编解码: "homework/Qt/FFmpeg.md"
     - 软工:
-      - 在软工项目中使用SSL证书: "homework/SE/using-SSL-in-SE/content.md"
+      - 在软工项目中使用 SSL 证书: "homework/SE/using-SSL-in-SE/content.md"
       - 合法的、安全地发布自己的网站: "homework/SE/publish_website/How-to-publish-your-website.md"
     - 其他: "homework/other.md"
   - 技术分享: 
     - 介绍: "tech/tech.md"
-    - JS语法糖及语法坑: "tech/JavaScript语法糖及语法坑.md"
-    - Manjaro系统入门: "tech/Intro-To-Manjaro/ManjaroIntro.md"
+    - JS 语法糖及语法坑: "tech/JavaScript语法糖及语法坑.md"
+    - Manjaro 系统入门: "tech/Intro-To-Manjaro/ManjaroIntro.md"
     - 油猴脚本: "tech/monkey_script/MonkeyScript.md"
-    - 连接Tsinghua-Secure: "tech/Tsinghua-Secure/tsinghua-secure.md"
-    - Python爬虫框架Scrapy: "tech/Scrapy/Scrapy.md"
-    - Zerotier实现内网穿透: "tech/Zerotier/Zerotier_guide.md"
-    - apache2简易指北: "tech/apache2/apache2_guide.md"
-    - Mermaid教程: "tech/Mermaid/Mermaid_note.md"
-    - 2022年暑培资料:
+    - 连接 Tsinghua-Secure: "tech/Tsinghua-Secure/tsinghua-secure.md"
+    - Python 爬虫框架 Scrapy: "tech/Scrapy/Scrapy.md"
+    - 网页内容解析库 BeautifulSoup4: "tech/BeautifulSoup4/BeautifulSoup4.md"
+    - Zerotier 实现内网穿透: "tech/Zerotier/Zerotier_guide.md"
+    - Apache2 简易指北: "tech/apache2/apache2_guide.md"
+    - Mermaid 教程: "tech/Mermaid/Mermaid_note.md"
+    - 2022 年暑培资料:
       - 前端基础: "tech/2022Summer/frontend-base.md"
       - Vue.js: "tech/2022Summer/Vue/vue.md"
       - Node.js: "tech/2022Summer/Nodejs/Nodejs.md"
@@ -76,7 +81,7 @@ nav:
       - CMake: "tech/2022Summer/cmake/cmake.md"
       - Qt: "tech/2022Summer/Qt/qt.md"
       - Docker: "tech/2022Summer/docker/Docker_Tutorial.md"
-      - 基于uni-app框架的小程序开发: "tech/2022Summer/uni-app/基于uni-app框架的小程序开发.md"
+      - 基于 uni-app 框架的小程序开发: "tech/2022Summer/uni-app/基于uni-app框架的小程序开发.md"
     - 其他: "tech/other.md"
   - 科创经验分享:
     - 星火计划: 
