@@ -1,5 +1,6 @@
 site_name: ReadMe 软件学院互助文档
 
+repo_url: https://github.com/ssast-readme/ssast-readme.github.io
 nav:
   - 首页:
     - 欢迎: "index.md"
