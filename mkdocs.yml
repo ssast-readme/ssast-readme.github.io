@@ -102,14 +102,27 @@ theme:
   name: material
   icon:
     logo: material/file-document
-  palette: 
-    primary: teal
   language: zh
   features:
     - navigation.instant
     - navigation.tabs
     - navigation
     - navigation.top
+  palette:
+    - scheme: default
+      media: "(prefers-color-scheme: light)"
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/weather-night
+        name: 切换至深色模式
+    - scheme: slate
+      media: "(prefers-color-scheme: dark)"
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: 切换至浅色模式
 
 extra:
   social:
