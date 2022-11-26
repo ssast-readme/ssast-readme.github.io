@@ -103,9 +103,11 @@ theme:
   icon:
     logo: material/file-document
   language: zh
+  custom_dir: overrides
   features:
     - navigation.instant
     - navigation.tabs
+    - navigation.tracking
     - navigation
     - navigation.top
   palette:
@@ -123,7 +125,6 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: 切换至浅色模式
-  custom_dir: overrides
 
 extra:
   social:
@@ -133,7 +134,6 @@ extra:
       link: 'https://twitter.com/squidfunk'
     - icon: fontawesome/brands/linkedin
       link: 'https://www.linkedin.com/in/squidfunk'
-
 
 markdown_extensions:
   - attr_list
