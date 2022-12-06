@@ -14,7 +14,9 @@ nav:
     - 操作系统:
       - 复习提纲: "note/os/os.md"
     - 人工智能导论:
-      - Learning(1): "note/AI-learning1/AI-learning1.md"
+      - Learning(1): "note/IAI/AI-learning1.md"
+    - 机器学习:
+      - 计算学习理论 (1): "note/ml/计算学习理论 (1).md"
     - 复变函数引论: 
       - 杨晓京老师笔记: "note/complex-function/readme.md"
     - 数据库: 
