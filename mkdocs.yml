@@ -62,6 +62,8 @@ nav:
     - 软工:
       - 在软工项目中使用 SSL 证书: "homework/SE/using-SSL-in-SE/content.md"
       - 合法的、安全地发布自己的网站: "homework/SE/publish_website/How-to-publish-your-website.md"
+    - 计网:
+      - mac配置Ubuntu16.04环境: "homework/network/run_ubuntu16.04_on_mac.md"
     - 其他: "homework/other.md"
   - 技术分享: 
     - 介绍: "tech/tech.md"
