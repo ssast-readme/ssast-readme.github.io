@@ -17,6 +17,7 @@ nav:
       - Learning(1): "note/IAI/AI-learning1.md"
     - 机器学习:
       - 计算学习理论 (1): "note/ml/计算学习理论 (1).md"
+      - 计算学习理论 (2): "note/ml/计算学习理论 (2).md"
     - 复变函数引论: 
       - 杨晓京老师笔记: "note/complex-function/readme.md"
     - 数据库: 
