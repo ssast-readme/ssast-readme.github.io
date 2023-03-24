@@ -18,8 +18,13 @@ nav:
     - 机器学习:
       - 计算学习理论 (1): "note/ml/计算学习理论 (1).md"
       - 计算学习理论 (2): "note/ml/计算学习理论 (2).md"
+    - 数据结构:
+      - 数据结构复习要点: "note/data_structure/data_structure_review_notes_1.md"
+      - 数据结构复习笔记: "note/data_structure/data_structure_review_notes_2.md"
+    - 数字电子技术基础 C:
+      - 数字电子技术基础复习要点: "note/digital_circuit/digital_notes.md" 
     - 复变函数引论: 
-      - 杨晓京老师笔记: "note/complex-function/readme.md"
+      - 复变笔记: "note/complex-function/readme.md"
     - 数据库: 
       - 第六章 E-R 模型: "note/database/Chapter6/Chapter 6  Database Design Using the E-R Model.md"
       - 第七章关系数据库设计: "note/database/Chapter7/Chapter 7.md"
@@ -38,13 +43,15 @@ nav:
       - 第四讲高阶导数与泰勒公式: "note/calculus/A2L4.md"
       - 第五讲极值、临界点: "note/calculus/A2L5.md"
     - 大学物理 B2:
-      - 大学物理 B2 整理: "note/physics/physics.md"
+      - 大学物理 B2 笔记整理: "note/physics/physics.md"
     - 初等概率论:
       - 初等概率论课程笔记: "note/probability/probability.md"
     - 初等数论:
       - 第一章: "note/number-theory/theoryL1.md"
       - 第二章: "note/number-theory/theoryL2.md"
       - 第三章: "note/number-theory/theoryL3.md"
+    - 抽象代数学:
+      - 抽象代数学课程笔记: "note/abstract_algebra/abstract_algebra_notes.md"
     - 其他: "note/other.md"
   - 作业攻略: 
     - 介绍: "homework/homework.md"
@@ -77,6 +84,14 @@ nav:
     - Zerotier 实现内网穿透: "tech/Zerotier/Zerotier_guide.md"
     - Apache2 简易指北: "tech/apache2/apache2_guide.md"
     - Mermaid 教程: "tech/Mermaid/Mermaid_note.md"
+    - web 前端: 
+      - Web前端概述: "tech/web/Web前端概述.md"
+      - CSS: "tech/web/CSS.md"
+      - HTML: "tech/web/HTML.md"
+      - JavaScript: "tech/web/JavaScript.md"
+      - Vue: "tech/web/Vue.md"
+    - DDP: 
+      - Distributed Data Parallel 详解: "tech/DDP/Distributed Data Parallel 详解.md"
     - 2022 年暑培资料:
       - 前端基础: "tech/2022Summer/frontend-base.md"
       - Vue.js: "tech/2022Summer/Vue/vue.md"
@@ -145,6 +160,13 @@ markdown_extensions:
   - md_in_html
   - pymdownx.arithmatex:
       generic: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
 
 extra_javascript:
   - javascripts/mathjax.js
