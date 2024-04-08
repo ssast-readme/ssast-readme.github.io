@@ -1,0 +1,13 @@
+version: "3.4"
+services: #指定服务名称
+  front: #前端服务 
+    container_name: tencent_test
+    image: nginx:latest #nginx镜像
+    ports: #避免出现端口映射错误，建议采用字符串格式
+      - "26099:80"
+    volumes: 
+      #挂载nginx配置文件到容器中，替换nginx容器中的默认配置
+      - ./config/nginx:/etc/nginx/conf.d
+      - ./.well-known/pki-validation/:/home/wwwroot/default/auth/.well-known/pki-validation/
+      - ./dist:/usr/share/nginx/html/
+    restart: always
