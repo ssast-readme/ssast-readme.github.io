@@ -56,6 +56,8 @@ nav:
       - 第三章: "note/number-theory/theoryL3.md"
     - 抽象代数学:
       - 抽象代数学课程笔记: "note/abstract_algebra/abstract_algebra_notes.md"
+    - 推研机试整理:
+      - 推研机试整理: "note/graduate_recommendation/graduate_recommendation.md"
     - 其他: "note/other.md"
   - 作业攻略: 
     - 介绍: "homework/homework.md"
